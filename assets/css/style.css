@@ -85,12 +85,20 @@ h1, h2 {
     padding: 40px;
 }
 
-.light-text {
+.light-text, .light-text a {
     color: var(--main-color-light);
+}
+
+.light-text a:hover {
+    transform: scale(1.2);
 }
 
 .dark-text {
     color: var(--main-color-dark);
+}
+
+.dark-text a:hover {
+    color: var(--accent-purple);
 }
 
 h3 {
@@ -190,4 +198,14 @@ body {
 #selfie {
     padding-top: 20px;
 }
+}
+
+.teaser {
+    text-align: center;
+}
+
+.teaser p, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
