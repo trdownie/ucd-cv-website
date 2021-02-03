@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
+
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: #2e2e2e;
+}
+
+#social-media-links {
+  padding-top: 12px;
+  padding-left: 10px;
+  font-size: 30px;
+  float: left;
+}
+
+#social-media-links a {
+  color: #f0f0f0;
+  padding-right: 5px;
+  display: inline;
+  align-self: hover;
+}
+
+.site-menu {
+  list-style-type: none;
+  font-family: Montserrat;
+  font-size: 30px;
+  padding-top: 10px;
+  padding-right: 10px;
+  float: right;
+}
+
+.site-menu li {
+  display: inline;
+  padding-right: 5px;
+}
+
+.site-menu a:not(.active) {
+  color: #f0f0f0;
+}
+
+.site-menu li a:hover,
+#social-media-links a:hover {
+  color: #00ffc2;
+}
+
+#active {
+  text-decoration: underline;
+  color: #00ffc2;
+}
+
+.dark-section {
+  background: #2e2e2e;
+}
