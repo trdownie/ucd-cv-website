@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap");
 
-/***********************************  GENERAL STYLING  ***********************************/
+/***********************************  GENERAL STYLING  ************************************/
 
 /*----------------------------------  Colours  -------------------------------------------*/
 
@@ -11,6 +11,80 @@
     --accent-purple: #7000ff;
 }
 
+/*----------------------------------  Fonts  ---------------------------------------------*/
+
+:root {
+    --small-font: 16px;
+    --medium-font: 20px;
+    --large-font: 30px;
+    --xl-font: 45px;
+}
+
+.light-mont {
+    font-family: Montserrat, sans-serif;
+    color: var(--main-color-light);
+}
+
+.dark-mont {
+    font-family: Montserrat, sans-serif;
+    color: var(--main-color-dark);
+}
+
+.green-mont {
+    font-family: Montserrat, sans-serif;
+    color: var(--accent-green);
+}
+
+.purple-mont {
+    font-family: Montserrat, sans-serif;
+    color: var(--accent-purple);
+}
+
+.light-robo {
+    font-family: Roboto, sans-serif;
+    color: var(--main-color-light);
+}
+
+.dark-robo {
+    font-family: Roboto, sans-serif;
+    color: var(--main-color-dark);
+}
+
+.green-robo {
+    font-family: Roboto, sans-serif;
+    color: var(--accent-green);
+}
+
+.purple-robo {
+    font-family: Roboto, sans-serif;
+    color: var(--accent-purple);
+}
+
+/*----------------------------------  Elements  ------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+h1 h2 {
+    font-size: var(--xl-font)
+}
+
+h3 {
+    font-size: var(--medium-font)
+}
+
+p {
+    font-size: var(--small-font);
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
 a {
     text-decoration: none;
 }
@@ -19,17 +93,13 @@ a:hover {
     text-decoration: none;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
 body {
     background-color: var(--main-color-dark);
 }
 
-/***********************************  NAVIGATION MENU  ***********************************/
+/***********************************  SECTION STYLING: SCREENS <576px  ******************/
+
+/*----------------------------------  Navigation Menu  ---------------------------------*/
 
 #social-media-links {
     padding-left: 5px;
@@ -72,3 +142,5 @@ body {
     text-decoration: underline;
     color: var(--accent-green);
 }
+
+/*----------------------------------  Home Section  ---------------------------------*/
