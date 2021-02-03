@@ -11,13 +11,22 @@
     --accent-purple: #7000ff;
 }
 
+.green-accent {
+    color: var(--accent-green)
+}
+
+.purple-accent {
+    color: var(--accent-purple)
+}
+
 /*----------------------------------  Fonts  ---------------------------------------------*/
 
 :root {
-    --small-font: 16px;
-    --medium-font: 20px;
-    --large-font: 30px;
-    --xl-font: 45px;
+    --xs-font: 8px;
+    --sm-font: 13px;
+    --md-font: 21px;
+    --la-font: 34px;
+    --xl-font: 55px;
 }
 
 .light-mont {
@@ -68,16 +77,28 @@
     border: 0;
 }
 
-h1 h2 {
-    font-size: var(--xl-font)
+h1, h2 {
+    font-size: var(--md-font);
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding: 40px;
+}
+
+.light-text {
+    color: var(--main-color-light);
+}
+
+.dark-text {
+    color: var(--main-color-dark);
 }
 
 h3 {
-    font-size: var(--medium-font)
+    font-size: var(---font)
 }
 
 p {
-    font-size: var(--small-font);
+    font-size: var(--sm-font);
 }
 
 img {
@@ -144,3 +165,29 @@ body {
 }
 
 /*----------------------------------  Home Section  ---------------------------------*/
+
+#attention-grab {
+    text-align: center;
+    width: 50%;
+}
+
+#selfie {
+    text-align: center;
+    vertical-align: center;
+    width: 50%;
+}
+
+@media screen and (max-width : 280px) {
+#selfie {
+    display: none;
+}
+#attention-grab {
+    width: 100%;
+}
+}
+
+@media screen and (max-width : 380px) {
+#selfie {
+    padding-top: 20px;
+}
+}
