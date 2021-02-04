@@ -399,3 +399,52 @@ body{
 .projects a:hover {
     text-transform: scale(1.5);
 }
+
+/*----------------------------------  Contact Section  ---------------------------------*/
+
+.contact {
+    display: block;
+    text-align: center;
+}
+
+#name, #email, #subject {
+    text-align: center;
+    width: 80%;
+    font-size: var(--xs-font);
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--accent-purple);
+    border-radius: 40px;
+}
+
+#name, #email {
+    height: 40px;
+}
+
+#subject {
+    height: 150px;
+}
+
+#submit {
+    color: var(--main-color-light);
+    text-align: center;
+    font-size: var(--xs-font);
+    margin: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--accent-purple);
+    border-radius: 40px;
+    background-color: var(--accent-purple);
+    
+}
+
+.contact-details {
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.contact-links {
+    color: var(--accent-purple);
+}
