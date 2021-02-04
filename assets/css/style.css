@@ -12,23 +12,28 @@
 }
 
 .green-accent {
-    color: var(--accent-green)
+    color: var(--accent-green);
 }
 
 .purple-accent {
-    color: var(--accent-purple)
+    color: var(--accent-purple);
+}
+
+.light-bg * {
+    background-color: var(--main-color-light);
 }
 
 /*----------------------------------  Fonts  ---------------------------------------------*/
 
 :root {
-    --xs-font: 8px;
-    --sm-font: 13px;
-    --md-font: 21px;
-    --la-font: 34px;
-    --xl-font: 55px;
+    --xs-font: 13px;
+    --sm-font: 21px;
+    --md-font: 34px;
+    --la-font: 55px;
+    --xl-font: 89px;
 }
 
+/*
 .light-mont {
     font-family: Montserrat, sans-serif;
     color: var(--main-color-light);
@@ -68,8 +73,9 @@
     font-family: Roboto, sans-serif;
     color: var(--accent-purple);
 }
+*/
 
-/*----------------------------------  Elements  ------------------------------------------*/
+/*----------------------------------  General Styles  ------------------------------------------*/
 
 * {
     margin: 0;
@@ -85,28 +91,13 @@ h1, h2 {
     padding: 40px;
 }
 
-.light-text, .light-text a {
-    color: var(--main-color-light);
-}
-
-.light-text a:hover {
-    transform: scale(1.2);
-}
-
-.dark-text {
-    color: var(--main-color-dark);
-}
-
-.dark-text a:hover {
-    color: var(--accent-purple);
-}
-
 h3 {
     font-size: var(---font)
 }
 
 p {
-    font-size: var(--sm-font);
+    font-size: var(--xs-font);
+    font-family: Roboto; 
 }
 
 img {
@@ -124,6 +115,38 @@ a:hover {
 
 body {
     background-color: var(--main-color-dark);
+}
+
+/*----------------------------------  Utilities  ------------------------------------------*/
+
+.light-text, .light-text a {
+    color: var(--main-color-light);
+}
+
+.light-text a:hover {
+    color: var(--accent-green);
+    text-transform: scale(1.2);
+}
+
+.dark-text, .dark-text a {
+    color: var(--main-color-dark);
+}
+
+.dark-text a:hover {
+    color: var(--accent-purple);
+    text-transform: scale(1.2);
+}
+
+/*----------------------------------  Sitewide Styling  ------------------------------------------*/
+
+.teaser {
+    text-align: center;
+}
+
+.teaser p, a {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 /***********************************  SECTION STYLING: SCREENS <576px  ******************/
@@ -200,12 +223,14 @@ body {
 }
 }
 
-.teaser {
+/*----------------------------------  Pitch Section  ---------------------------------*/
+
+.pitch {
     text-align: center;
+    padding: 0 30px;
 }
 
-.teaser p, a {
-    margin: 0;
-    padding: 0;
-    border: 0;
+.pitch a {
+    font-weight: bolder;
+    color: var(--accent-purple);
 }
