@@ -1,0 +1,30 @@
+
+	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="128" height="128" viewBox="0 0 100 100">
+
+
+
+		        <defs>
+		            
+	<linearGradient id="picture-gradient" x1="0" y1="0" y2="1" x2="0" >
+		<stop stop-color="#cffeef" offset="0%"/>
+		<stop stop-color="#6bfbaf" offset="0%"/>
+	</linearGradient>
+
+		        </defs>
+
+            <g transform="
+                    translate(50 50)
+                    translate(0 0)  scale(0.55)  
+                    translate(-50 -50)
+                    ">
+
+            <g fill="url(#picture-gradient)">
+
+                <g transform="scale(1.8518518518518519) translate(-3 -3.5)" id="picture"><path d="M30 3.5c-10.2 0-18.5 8.3-18.5 18.5 0 7.1 4.1 13.6 10.5 16.7V47c0 .6.4 1 1 1h2v6c0 .6.4 1 1 1h3v1.5c0 .6.4 1 1 1s1-.4 1-1V55h3c.6 0 1-.4 1-1v-6h2c.6 0 1-.4 1-1v-8.3c6.4-3.1 10.5-9.5 10.5-16.7 0-10.2-8.3-18.5-18.5-18.5zM33 53h-6v-5h6v5zm3.6-15.9c-.4.2-.6.5-.6.9v8H24v-1.5h5.5c.6 0 1-.4 1-1s-.4-1-1-1H24v-1h5.5c.6 0 1-.4 1-1s-.4-1-1-1H24V38c0-.4-.2-.8-.6-.9-6-2.6-9.9-8.6-9.9-15.1 0-9.1 7.4-16.5 16.5-16.5S46.5 12.9 46.5 22c0 6.6-3.9 12.5-9.9 15.1z M26.5 10.5c-4.1 0-7.5 3.4-7.5 7.5 0 .6.4 1 1 1s1-.4 1-1c0-3 2.5-5.5 5.5-5.5.6 0 1-.4 1-1s-.4-1-1-1z"/></g>
+
+            </g>
+
+            </g>
+
+
+	</svg>
