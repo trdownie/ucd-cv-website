@@ -448,3 +448,13 @@ body{
 .contact-links {
     color: var(--accent-purple);
 }
+
+/*----------------------------------  Footer Section  ---------------------------------*/
+
+.footer {
+    text-align: center;
+}
+
+.footer p {
+    display: inline;
+}
