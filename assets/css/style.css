@@ -78,7 +78,14 @@
 
 /*----------------------------------  General Styles  ------------------------------------------*/
 
-
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 h1, h2 {
     font-size: var(--md-font);
@@ -92,6 +99,12 @@ h3 {
     font-size: var(--sm-font);
     font-family: Montserrat, sans-serif;
     font-weight: 600;
+}
+
+h4 {
+    font-size: var(--sm-font);
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
 }
 
 p {
@@ -110,6 +123,7 @@ a {
 
 a:hover {
     text-decoration: none;
+    text-transform: scale(1.5);
 }
 
 body {
@@ -280,14 +294,15 @@ body {
 
 }
 
-/* Code below adapted from Camilla Carrera on CodePen */
+/* Skills Bar Chart */
+/* Code adapted from Camilla Carrera on CodePen */
 
 body{
   font-family: Roboto, sans-serif;
 }
 .skills-bar{
   width: 100%;
-  padding: 0 25px;
+  padding: 0 20px;
 }
 @keyframes load{
   from {
@@ -324,7 +339,7 @@ body{
   content:  attr(data-skill);
   background-color: #7000ff;
   display: inline-block;
-  padding: 5px 0 5px 10px;
+  padding: 5px 0 5px 5px;
   border-radius: inherit;
   animation: load 3s 0s;
   -webkit-animation: load 3s 0s;
@@ -349,3 +364,38 @@ body{
 }
 
 /* end of adapted code */
+
+/*----------------------------------  Projects Section  ---------------------------------*/
+
+.project-year {
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+    margin: 5px 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--accent-green);
+    border-radius: 40px;
+}
+
+.projects h4 {
+    margin-top: 10px;
+}
+
+.projects p {
+    font-weight: 300;
+}
+
+.client {
+    font-weight: 500;
+}
+
+.projects a {
+    color: var(--accent-green);
+}
+
+.projects a:hover {
+    text-transform: scale(1.5);
+}
