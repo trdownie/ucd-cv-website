@@ -27,13 +27,13 @@
 /*----------------------------------  Fonts  ---------------------------------------------*/
 
 :root {
-    --xss-font: 13px;
-    --xs-font: 17px;
-    --sm-font: 21px;
-    --md-font: 34px;
-    --la-font: 28px;
-    --xl-font: 55px;
-    --xxl-font: 89px;
+    --xss-font: 1rem;
+    --xs-font: 1.25rem;
+    --sm-font: 1.5rem;
+    --md-font: 1.75rem;
+    --la-font: 2rem;
+    --xl-font: 2.25rem;
+    --xxl-font: 2.5rem;
 }
 
 /*
@@ -322,7 +322,7 @@ body{
   padding: 1px;
   border-radius: 15px;
   margin-top: 5px;
-  font-size: 14px;
+  font-size: 1rem;
   color: #f0f0f0;
   font-weight: bold;
 }
@@ -455,25 +455,14 @@ body{
 
 /*----------------------------------- (XS Screens) <576px  ---------------------------------*/
 
-/* HOME PAGE: Breaks text at the right point */
-
-@media screen and (max-width: 500px) {
-    .small-break {
-        display: none;
-    }
-}
-
-/* HOME PAGE: Content switches to stacked on small phones */
-
 @media screen and (max-width: 350px) {
+/* HOME PAGE: Content switches to stacked on super-small screens */
     #main-heading {
         padding: 20px 0px 10px 10px;
     }
-    
     .home-content {
         flex-direction: column-reverse;
     } 
-
     #attention-grab {
         width: 100%;
     }
@@ -481,18 +470,21 @@ body{
     #attention-grab p {
         font-size: var(--sm-font)
     }
-    
+
     #selfie {
         align-self: center;
         width: 40%;
         padding-bottom: 30px;
     }
 }
+/* HOME PAGE: Title text breaks at the right point */
+@media screen and (min-width: 500px) {
+    .small-break {
+        display: none;
+    }
 
-/* HOME PAGE: Image centres in the space it has */
-
-@media screen and (max-width : 500px) {
-#selfie {
+/* HOME PAGE: Image centres in the space available */
+    #selfie {
     padding-top: 25px;
 }
 }
