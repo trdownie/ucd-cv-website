@@ -27,11 +27,13 @@
 /*----------------------------------  Fonts  ---------------------------------------------*/
 
 :root {
-    --xs-font: 13px;
+    --xss-font: 13px;
+    --xs-font: 17px;
     --sm-font: 21px;
     --md-font: 34px;
-    --la-font: 55px;
-    --xl-font: 89px;
+    --la-font: 28px;
+    --xl-font: 55px;
+    --xxl-font: 89px;
 }
 
 /*
@@ -154,6 +156,7 @@ body {
 
 .teaser {
     text-align: center;
+    font-weight: 600;
 }
 
 .teaser p, a {
@@ -215,25 +218,15 @@ body {
     width: 50%;
 }
 
+.attention-text {
+    font-weight: 300;
+}
+
 #selfie {
     text-align: center;
     vertical-align: center;
     width: 50%;
-}
-
-@media screen and (max-width : 280px) {
-#selfie {
-    display: none;
-}
-#attention-grab {
-    width: 100%;
-}
-}
-
-@media screen and (max-width : 380px) {
-#selfie {
-    padding-top: 20px;
-}
+    padding-right: 10px;
 }
 
 /*----------------------------------  Pitch Section  ---------------------------------*/
@@ -388,6 +381,15 @@ body{
     font-weight: 300;
 }
 
+/* FOR DESKTOPS (DESKTOPS TO SEE IMAGE THAT DISAPPEARS ON HOVER)
+.project-004:hover {
+    background-image: url("../img/project-northern-escapes.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
 .client {
     font-weight: 500;
 }
@@ -458,3 +460,50 @@ body{
 .footer p {
     display: inline;
 }
+
+/***********************************  RESPONSIVE ELEMENTS  ******************************/
+
+/*----------------------------------  0px≤ (XS Screens) <576px  ---------------------------------*/
+
+/* Home page layout bespoke breakpoints within default small screen size*/
+
+@media (max-width: 350px) {
+    #main-heading {
+        padding: 20px 0px 10px 10px;
+    }
+    
+    .home-content {
+        flex-direction: column-reverse; /*column & reverse*/
+    } 
+    
+    #attention-grab {
+        width: 100%;
+    }
+
+    #attention-grab p {
+        font-size: var(--sm-font)
+    }
+    
+    #selfie {
+        align-self: center;
+        width: 40%;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width : 500px) {
+#selfie {
+    padding-top: 25px;
+}
+}
+
+/*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
+
+
+/*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
+
+
+/*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
+
+
+/*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
