@@ -193,7 +193,6 @@ body {
     font-size: 20px;
     padding-top: 10px;
     padding-right: 10px;
-    float: right;
     text-align: center;
 }
 
@@ -381,15 +380,6 @@ body{
     font-weight: 300;
 }
 
-/* FOR DESKTOPS (DESKTOPS TO SEE IMAGE THAT DISAPPEARS ON HOVER)
-.project-004:hover {
-    background-image: url("../img/project-northern-escapes.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-*/
 .client {
     font-weight: 500;
 }
@@ -463,7 +453,7 @@ body{
 
 /***********************************  RESPONSIVE ELEMENTS  ******************************/
 
-/*----------------------------------  0px≤ (XS Screens) <576px  ---------------------------------*/
+/*----------------------------------- (XS Screens) <576px  ---------------------------------*/
 
 /* HOME PAGE: Breaks text at the right point */
 
@@ -473,7 +463,7 @@ body{
     }
 }
 
-/* HOME PAGE: content switches to stacked on small phones */
+/* HOME PAGE: Content switches to stacked on small phones */
 
 @media screen and (max-width: 350px) {
     #main-heading {
@@ -499,21 +489,21 @@ body{
     }
 }
 
-/* HOME PAGE: image centres in the space it has */
+/* HOME PAGE: Image centres in the space it has */
 
 @media screen and (max-width : 500px) {
 #selfie {
     padding-top: 25px;
 }
 }
-
 /*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
+@media screen and (min-width: 768px) {
 
-/* Home page content switches to stacked on small phones */
 
-@media screen an (min-width: 768px) {
-    .small-break {
-        display: none;
+
+/* HOME PAGE: Attention grab gets larger */
+    #attention-grab p {
+        font-size: var(--sm-font);
     }
 }
 
@@ -524,10 +514,10 @@ body{
 
 
 
-/*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
+/*----------------------------------  768px≤ (SM Screens) <992px  ---------------------------------*/
 
 
-/*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
+/*----------------------------------  992px≤ (SM Screens) <1200px  ---------------------------------*/
 
 
-/*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
+/*----------------------------------  1200px≤ (SM Screens)  ---------------------------------*/
