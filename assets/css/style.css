@@ -320,7 +320,7 @@ body{
 
 .projects {
     text-align: center;
-    margin: 5px 30px;
+    margin: 5px 10px;
     border-style: solid;
     border-width: 2px;
     border-color: var(--accent-green);
