@@ -270,6 +270,7 @@ body {
 /*----------------------------------  Skills Section  ---------------------------------*/
 
 .skills {
+    float: center;
     text-align: center;
     margin: 30px;
     border-style: solid;
@@ -295,7 +296,6 @@ body{
 }
 .skills-bar{
   width: 100%;
-  padding: 0 20px;
 }
 @keyframes load{
   from {
@@ -465,17 +465,25 @@ body{
 
 /*----------------------------------  0px≤ (XS Screens) <576px  ---------------------------------*/
 
-/* Home page layout bespoke breakpoints within default small screen size*/
+/* HOME PAGE: Breaks text at the right point */
 
-@media (max-width: 350px) {
+@media screen and (max-width: 500px) {
+    .small-break {
+        display: none;
+    }
+}
+
+/* HOME PAGE: content switches to stacked on small phones */
+
+@media screen and (max-width: 350px) {
     #main-heading {
         padding: 20px 0px 10px 10px;
     }
     
     .home-content {
-        flex-direction: column-reverse; /*column & reverse*/
+        flex-direction: column-reverse;
     } 
-    
+
     #attention-grab {
         width: 100%;
     }
@@ -491,6 +499,8 @@ body{
     }
 }
 
+/* HOME PAGE: image centres in the space it has */
+
 @media screen and (max-width : 500px) {
 #selfie {
     padding-top: 25px;
@@ -498,6 +508,20 @@ body{
 }
 
 /*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
+
+/* Home page content switches to stacked on small phones */
+
+@media screen an (min-width: 768px) {
+    .small-break {
+        display: none;
+    }
+}
+
+
+
+
+/* Home page layout bespoke breakpoints within default small screen size*/
+
 
 
 /*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
