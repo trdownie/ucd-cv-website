@@ -36,49 +36,7 @@
     --xxl-font: 2.5rem;
 }
 
-/*
-.light-mont {
-    font-family: Montserrat, sans-serif;
-    color: var(--main-color-light);
-}
-
-.dark-mont {
-    font-family: Montserrat, sans-serif;
-    color: var(--main-color-dark);
-}
-
-.green-mont {
-    font-family: Montserrat, sans-serif;
-    color: var(--accent-green);
-}
-
-.purple-mont {
-    font-family: Montserrat, sans-serif;
-    color: var(--accent-purple);
-}
-
-.light-robo {
-    font-family: Roboto, sans-serif;
-    color: var(--main-color-light);
-}
-
-.dark-robo {
-    font-family: Roboto, sans-serif;
-    color: var(--main-color-dark);
-}
-
-.green-robo {
-    font-family: Roboto, sans-serif;
-    color: var(--accent-green);
-}
-
-.purple-robo {
-    font-family: Roboto, sans-serif;
-    color: var(--accent-purple);
-}
-*/
-
-/*----------------------------------  General Styles  ------------------------------------------*/
+/*----------------------------------  Elements  ------------------------------------------*/
 
 html, body
 {
@@ -152,7 +110,7 @@ body {
     text-transform: scale(1.2);
 }
 
-/*----------------------------------  Sitewide Styling  ------------------------------------------*/
+/*----------------------------------  Sitewide  ------------------------------------------*/
 
 .teaser {
     text-align: center;
@@ -167,7 +125,7 @@ body {
 
 /***********************************  SECTION STYLING: SCREENS <576px  ******************/
 
-/*----------------------------------  Navigation Menu  ---------------------------------*/
+/*----------------------------------  Navigation  ---------------------------------*/
 
 #social-media-links {
     padding-left: 5px;
@@ -287,9 +245,8 @@ body {
 
 }
 
-/* Skills Bar Chart */
-/* Code adapted from Camilla Carrera on CodePen */
-
+/*  Skills Bar Chart  */
+/*  Code adapted from Camilla Carrera on CodePen  */
 body{
   font-family: Roboto, sans-serif;
 }
@@ -354,8 +311,7 @@ body{
 .bar.expert::before{
   width: calc(95% - 10px);
 }
-
-/* end of adapted code */
+/*  end of adapted code  */
 
 /*----------------------------------  Projects Section  ---------------------------------*/
 
@@ -428,7 +384,6 @@ body{
     border-color: var(--accent-purple);
     border-radius: 40px;
     background-color: var(--accent-purple);
-    
 }
 
 .contact-details {
@@ -456,60 +411,78 @@ body{
 /*----------------------------------- (XS Screens) <576px  ---------------------------------*/
 
 @media screen and (max-width: 350px) {
-/* HOME PAGE: Content switches to stacked on super-small screens */
+/*  HOME SECTION: Content switches to stacked on super-small screens */
     #main-heading {
         padding: 20px 0px 10px 10px;
     }
     .home-content {
         flex-direction: column-reverse;
-    } 
+    }
     #attention-grab {
         width: 100%;
     }
-
     #attention-grab p {
         font-size: var(--sm-font)
     }
-
     #selfie {
         align-self: center;
         width: 40%;
         padding-bottom: 30px;
     }
 }
-/* HOME PAGE: Title text breaks at the right point */
-@media screen and (min-width: 500px) {
-    .small-break {
-        display: none;
-    }
 
-/* HOME PAGE: Image centres in the space available */
+@media screen and (max-width: 500px) {
+/*  HOME SECTION: Image centres in the space available */
     #selfie {
     padding-top: 25px;
 }
 }
-/*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
-@media screen and (min-width: 768px) {
 
-
-
-/* HOME PAGE: Attention grab gets larger */
-    #attention-grab p {
-        font-size: var(--sm-font);
+@media screen and (min-width: 500px) {
+/*  HOME SECTION: Title text breaks at the right point */
+    .small-break {
+        display: none;
     }
 }
 
+/*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
 
+@media screen and (min-width: 576px) {
 
-
-/* Home page layout bespoke breakpoints within default small screen size*/
-
-
+}
 
 /*----------------------------------  768px≤ (SM Screens) <992px  ---------------------------------*/
 
+@media screen and (min-width: 768px) {
+/*  ELEMENTS  */
+    h1, h2 {
+        font-size: var(--la-font);
+    }
+
+/*  HOME SECTION: Attention grab gets larger */
+    #attention-grab p {
+        font-size: var(--sm-font);
+    }
+
+
+}
 
 /*----------------------------------  992px≤ (SM Screens) <1200px  ---------------------------------*/
 
+@media screen and (min-width: 992px) {
+/*  ELEMENTS  */
+    h1, h2 {
+        font-size: var(--xl-font);
+    }
+
+
+}
 
 /*----------------------------------  1200px≤ (SM Screens)  ---------------------------------*/
+
+@media screen and (min-width: 1200px) {
+/*  ELEMENTS  */
+    h1, h2 {
+        font-size: var(--xxl-font);
+    }
+}
