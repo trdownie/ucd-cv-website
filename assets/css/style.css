@@ -409,7 +409,22 @@ body{
 
 /*----------------------------------- (XS Screens) <576px  ---------------------------------*/
 
-@media screen and (max-width: 350px) {
+
+@media screen and (max-width: 500px) {
+/*  HOME SECTION: Image centres in the space available */
+    #selfie {
+    padding-top: 25px;
+}
+}
+
+@media screen and (min-width: 500px) {
+/*  HOME SECTION: Title text breaks at the right point */
+    .small-break {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
 /*  HOME SECTION: Content switches to stacked on super-small screens */
     #main-heading {
         padding: 20px 0px 10px 10px;
@@ -430,40 +445,32 @@ body{
     }
 }
 
-@media screen and (max-width: 500px) {
-/*  HOME SECTION: Image centres in the space available */
-    #selfie {
-    padding-top: 25px;
-}
-}
-
-@media screen and (min-width: 500px) {
-/*  HOME SECTION: Title text breaks at the right point */
-    .small-break {
-        display: none;
-    }
-}
-
 /*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
 
 @media screen and (min-width: 576px) {
-
+/*  HOME SECTION: Adds padding to bottom of image to balance with text  */
+    #selfie {
+        padding-top: 30px;
+    }
 }
 
 /*----------------------------------  768px≤ (SM Screens) <992px  ---------------------------------*/
 
 @media screen and (min-width: 768px) {
-/*  ELEMENTS  */
+/*  ELEMENTS: Increasing sizes to suit page size  */
     h1, h2 {
         font-size: var(--la-font);
     }
 
-/*  HOME SECTION: Attention grab gets larger */
+/*  HOME SECTION: Attention grab gets larger  */
     #attention-grab p {
         font-size: var(--sm-font);
     }
 
-
+/*  HOME SECTION: Adds padding to bottom of image to balance with text  */
+    #selfie {
+        padding-top: 30px;
+    }
 }
 
 /*----------------------------------  992px≤ (SM Screens) <1200px  ---------------------------------*/
@@ -474,11 +481,26 @@ body{
         font-size: var(--xl-font);
     }
 
+/*  HOME SECTION: Removes earlier padding */
+    #selfie {
+    padding-top: 0px;
+}
+
 /*  HOME SECTION: Attention grab gets larger */
     #attention-grab p {
         font-size: var(--md-font);
+        text-align: left;
     }
 
+/*  HOME SECTION: Removing breaks from attention grab and adding plus symbol  */
+    .large-break {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991.9) {
+    .large-only { display: none
+    }
 }
 
 /*----------------------------------  1200px≤ (SM Screens)  ---------------------------------*/
