@@ -475,6 +475,10 @@ body{
         font-size: var(--xl-font);
     }
 
+/*  HOME SECTION: Attention grab gets larger */
+    #attention-grab p {
+        font-size: var(--md-font);
+    }
 
 }
 
@@ -484,5 +488,10 @@ body{
 /*  ELEMENTS  */
     h1, h2 {
         font-size: var(--xxl-font);
+    }
+
+/*  HOME SECTION: Attention grab gets larger */
+    #attention-grab p {
+        font-size: var(--lg-font);
     }
 }
