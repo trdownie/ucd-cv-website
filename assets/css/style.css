@@ -47,12 +47,19 @@ html, body
     overflow-x: hidden; 
 }
 
+h1 {
+    padding: 100px 20px;
+}
+
+h2 {
+    padding: 20px;
+}
+
 h1, h2 {
     font-size: var(--md-font);
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     text-align: center;
-    padding: 40px;
 }
 
 h3 {
@@ -115,6 +122,7 @@ body {
 .teaser {
     text-align: center;
     font-weight: 600;
+    padding-top: 25px;
 }
 
 .teaser p, a {
@@ -169,6 +177,10 @@ body {
 }
 
 /*----------------------------------  Home Section  ---------------------------------*/
+
+.home-section {
+    height: 100vh;
+}
 
 #attention-grab {
     text-align: center;
@@ -316,6 +328,7 @@ body{
 
 .project-year {
     text-align: center;
+    padding: 30px 0px;
 }
 
 .projects {
@@ -427,7 +440,7 @@ body{
 @media screen and (max-width: 576px) {
 /*  HOME SECTION: Content switches to stacked on super-small screens */
     #main-heading {
-        padding: 20px 0px 10px 10px;
+        padding: 50px 0px 20px 20px;
     }
     .home-content {
         flex-direction: column-reverse;
@@ -449,6 +462,9 @@ body{
 
 @media screen and (min-width: 576px) {
 /*  HOME SECTION: Adds padding to bottom of image to balance with text  */
+    h1, h2 {
+        font-size: var(--la-font);
+    }
     #selfie {
         padding-top: 30px;
     }
@@ -459,7 +475,7 @@ body{
 @media screen and (min-width: 768px) {
 /*  ELEMENTS: Increasing sizes to suit page size  */
     h1, h2 {
-        font-size: var(--la-font);
+        font-size: var(--xl-font);
     }
 
 /*  HOME SECTION: Attention grab gets larger  */
