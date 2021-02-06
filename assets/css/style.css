@@ -123,7 +123,7 @@ body {
     text-align: left;
 }
 
-/* From Hover.css: grow */
+/* CODE TAKEN FROM HOVER.CSS GROW */
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -140,7 +140,7 @@ body {
 .hvr-grow:active {
     transform: scale(1.1);
 }
-
+/*  END OF HOVER.CSS CODE  */
 
 /*----------------------------------  Sitewide  ------------------------------------------*/
 
@@ -162,7 +162,7 @@ body {
 /*----------------------------------  Navigation  ---------------------------------*/
 
 /*  Skip To Main  */
-/*  Code adapted from NC State University Accessibility Guidelines  */
+/*  CODE CREDIT: SKIP TO MAIN ADAPTED FROM NC STATE UNIVERSITY ACCESSIBILITY GUIDELINES  */
 /*  (https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/)  */
 #skip-to-main {
     left:-999px;
@@ -180,7 +180,7 @@ body {
     color: var(--main-color-light);
     z-index: 999;
 }
-/*  end of adapted code  */
+/*  END OF CODE CREDIT  */
 
 
 #social-media-links {
@@ -304,7 +304,7 @@ body {
 }
 
 /*  Skills Bar Chart  */
-/*  Code adapted from Camilla Carrera on CodePen  */
+/*  CODE CREDIT: THIS BAR CHART WAS ADAPTED FROM CAMILLA CARRERA ON CODEPEN  */
 body{
   font-family: Roboto, sans-serif;
 }
@@ -369,7 +369,7 @@ body{
 .bar.expert::before{
   width: calc(95% - 10px);
 }
-/*  end of adapted code  */
+/*  END OF CODE CREDIT */
 
 /*----------------------------------  Projects Section  ---------------------------------*/
 
@@ -468,7 +468,7 @@ body{
     font-size: var(--md-font);
     padding: 0;
     }
-    /*  HOME SECTION: Image centres in the space available */
+/*  HOME SECTION: Image centres in the space available */
     #selfie {
     padding-top: 15px;
     }
@@ -484,11 +484,15 @@ body{
 @media screen and (max-width: 575px) {
 /*  HOME SECTION: Content switches to stacked on super-small screens */
     #main-heading {
-        padding: 20px 0px 20px 20px;
+        padding: 50px 0px 50px 20px;
     }
+/*  CODE CREDIT: THIS SINGLE LINE IS TAKEN FROM JS FIDDLE ON STACK OVERFLOW  */
+/*  (https://stackoverflow.com/questions/33082796/how-to-reverse-the-order-of-elements-in-media-queries)  */
     .home-content {
         flex-direction: column-reverse;
     }
+/*  END OF CODE CREDIT  */
+
     #attention-grab {
         width: 100%;
     }
@@ -504,7 +508,11 @@ body{
 /*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
 
 @media screen and (min-width: 576px) {
-/*  HOME SECTION: Adds padding to bottom of image to balance with text  */
+/*  HOME SECTION: heading pads out to fill screen */
+    #main-heading {
+        padding: 100px 0px 100px 20px;
+    }
+    /*  HOME SECTION: Adds padding to bottom of image to balance with text  */
     #selfie {
         padding-top: 30px;
     }
