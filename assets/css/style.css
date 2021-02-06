@@ -52,7 +52,7 @@ html, body
 }
 
 h1 {
-    padding: 100px 20px;
+    padding: 50px 20px;
 }
 
 h2 {
@@ -60,7 +60,7 @@ h2 {
 }
 
 h1, h2 {
-    font-size: var(--la-font);
+    font-size: var(--lg-font);
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     text-align: center;
@@ -451,7 +451,7 @@ body{
 @media screen and (max-width: 575px) {
 /*  HOME SECTION: Content switches to stacked on super-small screens */
     #main-heading {
-        padding: 50px 0px 20px 20px;
+        padding: 20px 0px 20px 20px;
     }
     .home-content {
         flex-direction: column-reverse;
