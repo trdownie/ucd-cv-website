@@ -31,9 +31,9 @@
     --xs-font: 1.25rem;
     --sm-font: 1.5rem;
     --md-font: 1.75rem;
-    --la-font: 2rem;
-    --xl-font: 2.25rem;
-    --xxl-font: 2.5rem;
+    --la-font: 2.5rem;
+    --xl-font: 3rem;
+    --xxl-font: 4rem;
 }
 
 /*----------------------------------  Elements  ------------------------------------------*/
@@ -47,6 +47,10 @@ html, body
     overflow-x: hidden; 
 }
 
+.section {
+    min-height: 100vh;
+}
+
 h1 {
     padding: 100px 20px;
 }
@@ -56,14 +60,14 @@ h2 {
 }
 
 h1, h2 {
-    font-size: var(--md-font);
+    font-size: var(--la-font);
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     text-align: center;
 }
 
 h3 {
-    font-size: var(--sm-font);
+    font-size: var(--md-font);
     font-family: Montserrat, sans-serif;
     font-weight: 600;
 }
@@ -90,7 +94,6 @@ a {
 
 a:hover {
     text-decoration: none;
-    text-transform: scale(1.5);
 }
 
 body {
@@ -105,7 +108,7 @@ body {
 
 .light-text a:hover {
     color: var(--accent-green);
-    text-transform: scale(1.2);
+    transition-delay: 0.1s;
 }
 
 .dark-text, .dark-text a {
@@ -114,7 +117,7 @@ body {
 
 .dark-text a:hover {
     color: var(--accent-purple);
-    text-transform: scale(1.2);
+    transition-delay: 0.1s;
 }
 
 /*----------------------------------  Sitewide  ------------------------------------------*/
@@ -122,7 +125,7 @@ body {
 .teaser {
     text-align: center;
     font-weight: 600;
-    padding-top: 25px;
+    padding-top: 35px;
 }
 
 .teaser p, a {
@@ -169,6 +172,7 @@ body {
 .site-menu a:hover,
 #social-media-links a:hover {
     color: var(--accent-green);
+    transition-delay: 0.1s;
 }
 
 #active {
@@ -177,10 +181,6 @@ body {
 }
 
 /*----------------------------------  Home Section  ---------------------------------*/
-
-.home-section {
-    height: 100vh;
-}
 
 #attention-grab {
     text-align: center;
@@ -196,6 +196,8 @@ body {
     vertical-align: center;
     width: 50%;
     padding-right: 10px;
+    min-width: 50px;
+    min-height: auto;
 }
 
 /*----------------------------------  Pitch Section  ---------------------------------*/
@@ -422,22 +424,27 @@ body{
 
 /*----------------------------------- (XS Screens) <576px  ---------------------------------*/
 
-
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 350px) {
 /*  HOME SECTION: Image centres in the space available */
     #selfie {
-    padding-top: 25px;
-}
+    padding-top: 15px;
+    }
+/*  HOME SECTION: remove heading padding to fit screen  */
+    h1 {
+    font-size: var(--md-font);
+    padding: 0;
+    }
+
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 400px) {
 /*  HOME SECTION: Title text breaks at the right point */
     .small-break {
         display: none;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
 /*  HOME SECTION: Content switches to stacked on super-small screens */
     #main-heading {
         padding: 50px 0px 20px 20px;
@@ -453,7 +460,6 @@ body{
     }
     #selfie {
         align-self: center;
-        width: 40%;
         padding-bottom: 30px;
     }
 }
@@ -462,9 +468,6 @@ body{
 
 @media screen and (min-width: 576px) {
 /*  HOME SECTION: Adds padding to bottom of image to balance with text  */
-    h1, h2 {
-        font-size: var(--la-font);
-    }
     #selfie {
         padding-top: 30px;
     }
@@ -485,7 +488,7 @@ body{
 
 /*  HOME SECTION: Adds padding to bottom of image to balance with text  */
     #selfie {
-        padding-top: 30px;
+        padding-top: 20px;
     }
 }
 
@@ -511,11 +514,6 @@ body{
 /*  HOME SECTION: Removing breaks from attention grab and adding plus symbol  */
     .large-break {
         display: none;
-    }
-}
-
-@media screen and (max-width: 991.9) {
-    .large-only { display: none
     }
 }
 
