@@ -143,6 +143,26 @@ body {
 
 /*----------------------------------  Navigation  ---------------------------------*/
 
+/*  Skills Bar Chart  */
+/*  Code adapted from NC State Uni Accessibility Guidelines  */
+
+#skip-to-main {
+    left:-999px;
+    position:absolute;
+    top:auto;
+    width:1px;
+    height:1px;
+    overflow:hidden;
+    z-index:-999;
+}
+
+#skip-to-main:focus, #skip-main:active {
+    font-family: montserrat, sans-serif;
+    font-size: var(--md-font);
+    color: var(--main-color-light);
+    z-index: 999;
+}
+
 #social-media-links {
     padding-left: 5px;
     font-size: 20px;
