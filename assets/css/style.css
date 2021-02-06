@@ -490,6 +490,10 @@ body{
         font-size: var(--xl-font);
     }
 
+/*  NAV: Social media links align with menu items once menu collapses  */
+    #social-media-links {
+    padding-top: 15px;
+
 /*  HOME SECTION: Attention grab gets larger  */
     #attention-grab p {
         font-size: var(--sm-font);
@@ -507,6 +511,11 @@ body{
 /*  ELEMENTS  */
     h1, h2 {
         font-size: var(--xl-font);
+    }
+
+/*  NAVIGATION TEXT: Increase size*/
+    .site-menu a, #social-media-links a {
+        font-size: var(--md-font);
     }
 
 /*  HOME SECTION: Removes earlier padding */
