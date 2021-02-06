@@ -85,7 +85,6 @@ p {
 
 img {
     max-width: 100%;
-    max-height: auto;
 }
 
 a {
@@ -402,10 +401,6 @@ body{
 
 .projects a {
     color: var(--accent-green);
-}
-
-.projects a:hover {
-    text-transform: scale(1.5);
 }
 
 /*----------------------------------  Contact Section  ---------------------------------*/
