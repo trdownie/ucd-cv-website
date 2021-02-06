@@ -75,7 +75,7 @@ h3 {
 h4 {
     font-size: var(--sm-font);
     font-family: Roboto, sans-serif;
-    font-weight: 300;
+    font-weight: 200;
 }
 
 p {
@@ -120,6 +120,10 @@ body {
     transition-delay: 0.1s;
 }
 
+.left-align {
+    text-align: left;
+}
+
 /*----------------------------------  Sitewide  ------------------------------------------*/
 
 .teaser {
@@ -129,6 +133,7 @@ body {
 }
 
 .teaser p, a {
+    text-align: center;
     margin: 0;
     padding: 0;
     border: 0;
@@ -470,6 +475,10 @@ body{
 /*  HOME SECTION: Adds padding to bottom of image to balance with text  */
     #selfie {
         padding-top: 30px;
+    }
+/*  HOME SCREEN: Align attention grab text left  */
+    #attention-grab {
+        text-align: left;
     }
 }
 
