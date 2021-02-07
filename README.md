@@ -558,9 +558,22 @@ I tested the functionality of the site by completing the following tests:
 - **The site was tested for accessibility use the Web Accessibility Evaluation Tool**
     - The results can be [seen here](https://wave.webaim.org/report#/https://trdownie.github.io/ucd-cv-website/)
 
-### **Known Bugs**
-- There are no known bugs with this website. If you spot one – please [get in touch](mailto:trdownie@gmail.com).
+### **Bugs**
+The following problems were encountered and addressed:
+- On first development run, a random guttering appeared on the right after adding the programming skills bar.
+>This was solved using the code outlined in the development stage above.
+- The HTML code validator pointed to the role attribute missing from the programming skills bars.
+>I was unaware of this but found information online that explained the function of this.
+- The HTML code validator pointed to the use of multiple dashes in the comments of the code and how this was a problem for XML.
+>I was also unaware of this but found information online that explained the situation and the comments were changed.
+- The HTML code validator pointed to the use of alt text within icon elements in html and how this was not allowed.
+>These were removed.
+- The link validator pointed to several typos and one broken link.
+>These were fixed within the code and the test repeated.
+- The PDF file would not open in another window.
+>This was due to me using a local path and not the full file path.
 
+Currently, there are no known bugs with this website. If you spot one – please [get in touch](mailto:trdownie@gmail.com).
 
 -----------------------------
 
