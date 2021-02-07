@@ -477,7 +477,14 @@ body{
 
 @media screen and (max-width: 400px) {
 /*  HOME SECTION: Title text breaks at the right point */
-    .small-break {
+    .small-break-1 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 575px) {
+/*  HOME SECTION: Title text breaks at the right point */
+    .small-break-2 {
         display: none;
     }
 }
@@ -511,7 +518,7 @@ body{
 @media screen and (min-width: 576px) {
 /*  HOME SECTION: heading pads out to fill screen */
     #main-heading {
-        padding: 100px 0px 100px 20px;
+        padding: 50px 0px 30px 20px;
     }
     /*  HOME SECTION: Adds padding to bottom of image to balance with text  */
     #selfie {
