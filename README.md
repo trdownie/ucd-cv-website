@@ -276,23 +276,23 @@ The image on the home page was designed using Canva and is more suited to a CV s
 #### *Pitch*
 The pitch section utilised a simple format of alternating paragraphs with icons. I couldn’t find suitable icons that contained an elevator with both a man and woman in, something I think is important. So, I used Canva to create one, and since I was already creating the icon, I thought it was a good opportunity to tailor it for the site.
  
-<div align="center"><img src="/assets/readme-img/first-run-2.png" style="max-width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-2.png" style="max-width:300px" alt="screenshot of the pitch section"></div>
 
 #### *History*
 The history section was similar in nature to the pitch section with icons and text alternating. At this point, a decision was made not to include the timeline from original mock-ups. This would have meant two successive sections with a very similar appearance and for such a simple site, that wasn’t desired. Instead, I decided the dates gave indication of the inferred timeline, and instead using Bootstrap’s grid feature would allow this to expand on larger screens. 
 I used ICONSFLOW to source the icons here as the Font Awesome library was limited, and imported the downloaded SVG files.
 
-<div align="center"><img src="/assets/readme-img/first-run-3.png" style="max-width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-3.png" style="max-width:300px" alt="screenshot of the history section"></div>
 
 
 #### *Skills*
 The key skills and tools sections were again just headings with paragraphs in keeping with the design of the site. I added slashes instead of commas to add an element of design that was simple to incorporate. I also took the decision here to lay the two text boxes first before the programming bar chart. Since the following projects page looks similar, the programming bar chart breaks this up somewhat.
 
-<div align="center"><img src="/assets/readme-img/first-run-4.png" style="max-width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-4.png" style="max-width:300px" alt="screenshot of the skills section"></div>
 
 The programming skills progress bar chart was taken from [Camila Carrera on CodePen](https://codepen.io/milacarrera/pen/pEPoZz). I adapted the code to suit the theme of my site, but I thought the aesthetics of it were improved over the original mock-ups and so utilised this.
 
-<div align="center"><img src="/assets/readme-img/first-run-5.png" style="max-width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-5.png" style="max-width:300px" alt="screenshot of the skills bar chart"></div>
 
 #### *Projects*
 During development of the projects page, a random guttering appeared to the right of the elements in the Gitpod viewer. This was distorting the project element width as Bootstrap was taking it into account as part of its 12-section row, but only for this section. I couldn’t find the cause after disabling pretty much everything I could think it might be. In the end, the code below was [found on stack overflow](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) and turned out to fix the problem completely.
@@ -307,17 +307,17 @@ During development of the projects page, a random guttering appeared to the righ
 
 I also decided at this point that keeping the details about the projects sparse would be acceptable since the work done/being done is so limited at this point.
 
-<div align="center"><img src="/assets/readme-img/first-run-6.png" style="max-width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-6.png" style="max-width:300px" alt="screenshot of the projects section"></div>
 
 #### *Contact*
 The contact section utilised a very basic contact form and submit button. Due to no database set-up this is non-functional, however, functionality will be added in the future.
 
-<div align="center"><img src="/assets/readme-img/first-run-7.png" style="max-width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-7.png" style="max-width:300px" alt="screenshot of the contact page"></div>
 
 #### *Footer*
 I added a basic footer with a no copyright message and an icon emoji from ICONSFLOW that I may use as a sort of signature on future developments, colouring the icon to suit the theme of each page. After development, I deleted the ‘help yourself’ text as I felt this was unprofessional and superfluous.
 
-<div align="center"><img src="/assets/readme-img/first-run-8.png" style="max-width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-8.png" style="max-width:300px" alt="screenshot of the footer"></div>
 
 ### **Responsiveness**
 From inception to development, the site has been designed using a mobile-first approach. The main breakpoints I have chosen, to ensure that the content remains well-presented on all available screen sizes, are based on Bootstrap’s breakpoints. This was to ensure I could utilise the simplicity of the in-built breakpoints within Bootstrap’s grid system when designing and therefore minimize the need for additional media queries.
@@ -347,15 +347,15 @@ I also reversed the order of the columns and adjusted their sizes so they would 
 
 Originally, I had planned for the image to disappear on smaller devices, but since it is the only image on the site, and since recruiters like to see what potential employers look like, I decided losing this wasn’t acceptable.
 
-<div align="center"><img src="/assets/readme-img/homepage-responsive-1.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/homepage-responsive-1.png" style="height:500px" alt="screenshot of the homepage on extra small devices"></div>
 
-<div align="center"><img src="/assets/readme-img/homepage-responsive-2.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/homepage-responsive-2.png" style="height:500px" alt="screenshot of the homepage on small devices"></div>
 
-<div align="center"><img src="/assets/readme-img/homepage-responsive-3.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/homepage-responsive-3.png" style="height:500px" alt="screenshot of the homepage on medium devices"></div>
 
-<div align="center"><img src="/assets/readme-img/homepage-responsive-4.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/homepage-responsive-4.png" style="height:500px" alt="screenshot of the homepage on large devices"></div>
 
-<div align="center"><img src="/assets/readme-img/homepage-responsive-5.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/homepage-responsive-5.png" style="height:500px" alt="screenshot of the homepage on extra large devices"></div>
 
 #### *Pitch*
 The pitch section is based on the idea of an elevator going down. As such the content needs to remain centred and not spread out. I used Bootstrap’s default column settings (shown below) and some padding to achieve this:
@@ -372,7 +372,7 @@ Since the timeline was not going to be utilised, this made the history section f
 
 This means the default column width takes full screen (mobile-first), then two columns appear for medium screens (over 768px) and three columns for large screens (over 992px). With six items in the list, this works nicely. Finally, I used a container for this section to ensure the content does not reach the edges. 
 
-<div align="center"><img src="/assets/readme-img/history-section.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/history-section.png" style="height:500px" alt="screenshot of the history section"></div>
 
 #### *Skills*
 The skills section also takes advantage of Bootstrap’s grid functionality:
@@ -387,7 +387,7 @@ The programming bar chart utilises bootstrap in the simplest way:
 
 This ensures that for all screen sizes, this element only takes up 8/12ths of the screen.
 
-<div align="center"><img src="/assets/readme-img/skills-section.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/skills-section.png" style="height:500px" alt="screenshot of the skills section"></div>
 
 #### *Projects*
 Again, the projects section utilises Bootstrap:
@@ -398,7 +398,7 @@ As above, this allows for margins to be left between the items while allowing fo
 
 This looks relatively blank right now, but in time this will of course fill up, at which point I will add screenshots of my work as a background to the boxes on hover/focus, as per future developments.
 
-<div align="center"><img src="/assets/readme-img/projects-section.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/projects-section.png" style="height:500px" alt="screenshot of the projects section"></div>
 
 #### *Contact*
 Finally, the contact form also uses Bootstrap to adjust size at the relevant breakpoints:
