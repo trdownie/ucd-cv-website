@@ -162,7 +162,6 @@ body {
 
 /*----------------------------------  Navigation  ---------------------------------*/
 
-/*  Skip To Main  */
 /*  CODE CREDIT: SKIP TO MAIN ADAPTED FROM NC STATE UNIVERSITY ACCESSIBILITY GUIDELINES  */
 /*  (https://accessibility.oit.ncsu.edu/it-accessibility-at-nc-state/developers/accessibility-handbook/mouse-and-keyboard-events/skip-to-main-content/)  */
 #skip-to-main {
@@ -300,7 +299,6 @@ body {
 
 .skills-bar h3 {
     text-align: center;
-
 }
 
 /*  Skills Bar Chart  */
@@ -471,21 +469,21 @@ body{
 }
 
 @media screen and (max-width: 400px) {
-/*  HOME SECTION: Title text breaks at the right point */
+/*  HOME SECTION: Title text breaks at the right point  */
     .small-break-1 {
         display: none;
     }
 }
 
 @media screen and (min-width: 350px) and (max-width: 575px) {
-/*  HOME SECTION: Title text breaks at the right point */
+/*  HOME SECTION: Title text breaks at the right point  */
     .small-break-2 {
         display: none;
     }
 }
 
 @media screen and (max-width: 575px) {
-/*  HOME SECTION: Content switches to stacked */
+/*  HOME SECTION: Content switches to stacked  */
     #main-heading {
         padding: 30px 0px 30px 20px;
     }
@@ -511,11 +509,11 @@ body{
 /*----------------------------------  576px≤ (SM Screens) <768px  ---------------------------------*/
 
 @media screen and (min-width: 576px) {
-/*  HOME SECTION: heading pads out to fill screen */
+/*  HOME SECTION: heading pads out to fill screen  */
     #main-heading {
         padding: 50px 0px 30px 20px;
     }
-    /*  HOME SECTION: Adds padding to bottom of image to balance with text  */
+/*  HOME SECTION: Adds padding to top of image to balance with text  */
     #selfie {
         padding-top: 30px;
     }
@@ -549,19 +547,19 @@ body{
 /*----------------------------------  992px≤ (SM Screens) <1200px  ---------------------------------*/
 
 @media screen and (min-width: 992px) {
-/*  ELEMENTS  */
+/*  ELEMENTS: Increasing sizes to suit page size  */
     h1, h2 {
         font-size: var(--xl-font);
     }
-/*  NAVIGATION: Increase size of text*/
+/*  NAVIGATION: Increase size of text in line with page  */
     .site-menu a, #social-media-links a {
         font-size: var(--md-font);
     }
-/*  HOME SECTION: Removes earlier padding */
+/*  HOME SECTION: Removes earlier padding  */
     #selfie {
     padding-top: 0px;
 }
-/*  HOME SECTION: Attention grab gets larger */
+/*  HOME SECTION: Attention grab gets larger  */
     #attention-grab p {
         font-size: var(--md-font);
         text-align: left;
@@ -575,11 +573,11 @@ body{
 /*----------------------------------  1200px≤ (SM Screens)  ---------------------------------*/
 
 @media screen and (min-width: 1200px) {
-/*  ELEMENTS  */
+/*  ELEMENTS: Increasing sizes to suit page size  */
     h1, h2 {
         font-size: var(--xxl-font);
     }
-/*  HOME SECTION: Attention grab gets larger */
+/*  HOME SECTION: Attention grab gets larger  */
     #attention-grab p {
         font-size: var(--lg-font);
     }
