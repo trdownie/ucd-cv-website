@@ -276,28 +276,28 @@ The layout of the home page presented some problems on first run due to the smal
 
 The image on the home page was designed using Canva and is more suited to a CV site than the one in the mock-ups. The coloured border was added in Canva, which is sub-optimal since the flexibility to change this within the code would allow more control for future amendments, but Canva would not allow the export of circular images. The image, then, is square with the illusion of circularity due to matching the background colours exactly. Time constraints meant fixing this was not a priority for initial release.
 
-<div align="center"><img src="/assets/readme-img/first-run-1.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-1.png" style="width:500px" alt="screenshot of the homepage"></div>
 
 #### *Pitch*
 The pitch section utilised a simple format of alternating paragraphs with icons. I couldn’t find suitable icons that contained an elevator with both a man and woman in, something I think is important. So, I used Canva to create one, and since I was already creating the icon, I thought it was a good opportunity to tailor it for the site.
  
-<div align="center"><img src="/assets/readme-img/first-run-2.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-2.png" style="width:500px" alt="screenshot of the homepage"></div>
 
 #### *History*
 The history section was similar in nature to the pitch section with icons and text alternating. At this point, a decision was made not to include the timeline from original mock-ups. This would have meant two successive sections with a very similar appearance and for such a simple site, that wasn’t desired. Instead, I decided the dates gave indication of the inferred timeline, and instead using Bootstrap’s grid feature would allow this to expand on larger screens. 
 I used ICONSFLOW to source the icons here as the Font Awesome library was limited, and imported the downloaded SVG files.
 
-<div align="center"><img src="/assets/readme-img/first-run-3.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-3.png" style="width:500px" alt="screenshot of the homepage"></div>
 
 
 #### *Skills*
 The key skills and tools sections were again just headings with paragraphs in keeping with the design of the site. I added slashes instead of commas to add an element of design that was simple to incorporate. I also took the decision here to lay the two text boxes first before the programming bar chart. Since the following projects page looks similar, the programming bar chart breaks this up somewhat.
 
-<div align="center"><img src="/assets/readme-img/first-run-4.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-4.png" style="width:500px" alt="screenshot of the homepage"></div>
 
 The programming skills progress bar chart was taken from [Camila Carrera on CodePen](https://codepen.io/milacarrera/pen/pEPoZz). I adapted the code to suit the theme of my site, but I thought the aesthetics of it were improved over the original mock-ups and so utilised this.
 
-<div align="center"><img src="/assets/readme-img/first-run-5.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-5.png" style="width:500px" alt="screenshot of the homepage"></div>
 
 #### *Projects*
 During development of the projects page, a random guttering appeared to the right of the elements in the Gitpod viewer. This was distorting the project element width as Bootstrap was taking it into account as part of its 12-section row, but only for this section. I couldn’t find the cause after disabling pretty much everything I could think it might be. In the end, the code below was [found on stack overflow](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) and turned out to fix the problem completely.
@@ -309,17 +309,17 @@ html, body
     padding: 0px;
     overflow-x: hidden; 
 
-<div align="center"><img src="/assets/readme-img/first-run-6.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-6.png" style="width:500px" alt="screenshot of the homepage"></div>
 
 #### *Contact*
 The contact section utilised a very basic contact form and submit button. Due to no database set-up this is non-functional, however, functionality will be added in the future.
 
-<div align="center"><img src="/assets/readme-img/first-run-7.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-7.png" style="width:500px" alt="screenshot of the homepage"></div>
 
 #### *Footer*
 I added a basic footer with a no copyright message and an icon emoji from ICONSFLOW that I may use as a sort of signature on future developments, colouring the icon to suit the theme of each page. After development, I deleted the ‘help yourself’ text as I felt this was unprofessional and superfluous.
 
-<div align="center"><img src="/assets/readme-img/first-run-8.png" style="height:500px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-8.png" style="width:500px" alt="screenshot of the homepage"></div>
 
 ### **Responsiveness**
 From inception to development, the site has been designed using a mobile-first approach. The main breakpoints I have chosen, to ensure that the content remains well-presented on all available screen sizes, are based on Bootstrap’s breakpoints. This was to ensure I could utilise the simplicity of the in-built breakpoints within Bootstrap’s grid system when designing and therefore minimize the need for additional media queries.
@@ -426,7 +426,7 @@ The following accessibility considerations are based on the best ‘checklist’
 - The website remains readable at 200% zoom.
 - All page elements can be tabbed to and there are no interactive elements.
 - Headings and link text are all descriptive enough not to require additional tags.
-- The colours used in the design of the website met the WCAG triple A standard, with the exception of the purple text under the contact form. As such, this was changed to ensure all text meets the WCAG triple A gold standard. (https://webaim.org/resources/contrastchecker/)
+- The colours used in the design of the website met the WCAG triple A standard, with the exception of the purple text under the contact form. As such, this was changed to ensure all text meets the [WCAG triple A gold standard](https://webaim.org/resources/contrastchecker/).
 - No content flashes or blinks more than three times per second.
 - The focus indicator is not hidden.
 - Colour is not used to convey meaning.
