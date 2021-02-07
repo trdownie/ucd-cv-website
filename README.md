@@ -13,7 +13,7 @@ This website is the live CV of myself, [Terry Downie](https://github.com/trdowni
 
 -----------------------------
 
-The design of the site began with target user objectives in mind and worked up from there. The process is detailed here.
+The design of the site began with the objectives of target users in mind and worked up from there. The process is detailed here.
 
 ### **User Stories**
 
@@ -34,7 +34,7 @@ The **secondary users** of this site will be potential **collaborators**. They w
 3.	To get a glimpse of my personality and what my values are.
 4.	To obtain key information about me, specifically:
     - My current skillset with competence levels where applicable.
-    - The projects I have worked on and the briefs I have worked to in these projects.
+    - The projects I have worked on and the code behind these projects.
 5.	To be able to contact me in their preferred manner.
 
 **Return visitors** will want to:
@@ -70,7 +70,7 @@ The **content considerations** are:
 - Each section will utilise quirky information presentation tools such as timelines, boxes or bar charts to maximise engagement.
 
 #### *Structure*
-The design of CV websites is inevitably contradictory; conventional sectioning helps greatly in providing the required information in the most proficient way, but there is a requirement to ‘stand out’ which calls for breaking pure convention. Considering this, and also taking into consideration the scope, strategy and user goals, it made sense to provide the information in a conventional and minimalistic format with a slight deviation from the norm early on grab the users attention before providing the required information in a reliable and conventional way.
+The design of CV websites is inevitably contradictory; conventional sectioning helps greatly in providing the required information in the most proficient way, but there is a requirement to ‘stand out’ which calls for breaking pure convention. Considering this, and also taking into consideration the scope, strategy and user goals, it made sense to provide the information in a conventional and minimalistic format with a slight deviation from the norm early on to grab the users attention before providing the required information in a reliable and conventional way.
 
 The **website structure**, in order, has eight parts:
 1.	*Navigation Bar*: A narrow and minimalistic menu navigation with social media links
@@ -94,9 +94,9 @@ The **website structure**, in order, has eight parts:
 - *Conventional*: A navigation menu along the top will allow users to jump to sections as they please. This is to play into familiarity, but it is not the preferred method of navigation as it means some information may be overlooked and not due to the reason above, specifically to contact me.
 
 **Interaction** is minimal since HTML and CSS aren’t optimal languages for interaction and because interaction simply isn’t a necessity. The interactive elements sections are specifically aimed at reinforcing the single continuous flow of the site and are as follows:
-- The down arrows and associated teaser text will grow on occasion prompting users to follow that method of navigation.
-- The elevator icons in the pitch section will appear sequentially after 3-5 seconds to mimic an elevator going down.
-- The text in the history section will appear sequentially to clarify the flow of information.
+- The down arrows and associated teaser text will grow on hover prompting users to follow that method of navigation.
+- The elevator icons in the pitch section will appear sequentially after 3-5 seconds to mimic an elevator going down. (Not implemeneted at this stage due to JS requirements)
+- The text in the history section will appear sequentially to clarify the flow of information. (Not implemeneted at this stage due to JS requirements)
 
 #### *Skeleton*
 Initial sketches on paper led to the following **wireframes** being developed using Figma. These are intentionally basic as this should be a time-efficient stage, utilised simply to visualise the project before undertaking complete mockups, anticipate any hurdles, or spot the opportunity for additional features. The three main screen sizes have been visualised, with the initial wireframes being done on mobile and then converted up from there.
@@ -110,9 +110,9 @@ The following **features** are on display here:
 - *Pitch*: an elevator icon and 4 small chunks of text to add **metaphorical** value and break up the text
 - *History*: icons for each of the roles I’ve had, again adding **metaphorical** value to help interpretation
 - *Skills*: more icons, again adding **metaphorical** value, and a bar chart representing progress in a visually appealing and logical way
-- *Projects*: screenshots of the projects so the user can see at a glance work that has been done.
+- *Projects*: screenshots of the projects so the user can see at a glance work that has been done (Screenshots not implemented as awaiting completion of more projects)
 - *Contact*: multiple ways to contact me – contact form, telephone number, email address and social media links
-- *Contact*: a simple link to a downloadable PDF CV 
+- *Contact*: a simple link to a downloadable PDF CV
 
 #### *Surface*
 Following the wireframes, the final step of design was to create in-depth **mockups**. These were also created in Figma using the three main screen sizes.
@@ -125,7 +125,7 @@ The **colour scheme** employed a dark and light theme with different contrasting
 
 As earlier mentioned, the **imagery** used here is minimal. The image on the landing page has been rendered in black & white with a circle of colour to match the aesthetic of the site. The icons chosen were minimalistic to convey meaning, not to add flare that can take a user’s attention from the message. The screenshots are also in black & white for consistency. 
 
-The **copy** used follows the trend of minimal, purposeful and concise. Strunk’s “omit needles words” is still the perfect advice on copy from his The Elements of Style, a guide to copy from 1918 that is still as relevant today as ever. This has been the overarching theme of the site: by ensuring conciseness, the required information can be provided without anything superfluous. (This README could perhaps benefit from that seminal advice – but this is, of course, outlined in additional detail for assessment purposes.) Finally, the tone of voice is clear, confident and collaborative, while balancing to-the-point professionalism, such as “recent projects”, with personality, by using colloquialisms such as “let’s talk”.
+The **copy** used follows the trend of minimal, purposeful and concise. Strunk’s “omit needles words” is still the perfect advice on copy from his book, The Elements of Style, a guide to copy from 1918 that is still as relevant today as ever. This has been the overarching theme of the site: by ensuring conciseness, the required information can be provided without anything superfluous. (This README could perhaps benefit from that seminal advice – but this is, of course, outlined in additional detail for assessment purposes.) Finally, the tone of voice is clear, confident and collaborative, while balancing to-the-point professionalism, such as “recent projects”, with personality, by using colloquialisms such as “let’s talk”.
 
 -----------------------------
 
@@ -136,7 +136,7 @@ The **copy** used follows the trend of minimal, purposeful and concise. Strunk�
 The project is relatively light on features as dictated by what is necessary to achieve the goals of its target users. These are laid out here.
 
 ### **Core Features**
-Three elements have been used throughout to maintain a consistent layout and support the user goal of being able to quickly access the information they require quickly.
+Three elements have been used throughout to maintain a consistent layout and support the user goal of being able to quickly access the information they require.
 
 The **teaser button** is used on each section (except the last section). As the last thing on each page, this prompts the user to click the arrow and follow the website in sequential order, which is my preferred navigation path for the user.
 
@@ -145,26 +145,26 @@ Each section has a **heading** that is short, sharp and concise, and balances pr
 The **nav menu** was meant to be sticky, therefore travelling with the user as they explore each section. This was not completed due to limitations outlined below.
 
 ### **Header**
-The header bar design is transparent and changes colour to contrast against the background of the changing sections adding a touch of flare to the project. The section the user is currently on is highlighted in the relevant accent colour and also an underline. In addition, hovering over the words or icons will elicit a colour change in the respective accent colour, but the underline will remain only on the current section, allowing a distinction for user-friendliness.
+The header bar design is transparent with the intention to change colour to contrast against the background of the changing sections adding a touch of flare to the project. The section the user is currently on would be highlighted in the relevant accent colour and also an underline. In addition, hovering over the words or icons will elicit a colour change in the respective accent colour, but the underline will remain only on the current section, allowing a distinction for user-friendliness. Since the sticky navigation has not been implemeneted yet this is outlined in future developments.
 
 The header is split into two sections: **the social menu** (left) and the **nav menu** (right).
 
 The **social menu** contains the following social media links, in descending order of importance to users:
-•	GitHub, where I share code
-•	LinkedIn, my professional profile
-•	Medium, where I write occasionally about technology
-•	Twitter, where I post occasionally, sometimes about technology
-•	Instagram, my personal profile
+- *GitHub*, where I share code
+- *LinkedIn*, my professional profile
+- *Medium*, where I write occasionally about technology
+- *Twitter*, where I post occasionally, sometimes about technology
+- *Instagram*, my personal profile
 
 I considered removing these links as I don’t want to funnel users straight to my social media links on their arrival, and leave the links only on the last page, but I believe the benefit to repeat visitors outweighs this.
 
 The **nav menu** contains the menu with six navigational links, which are intentionally concise:
-•	Home
-•	Pitch
-•	History
-•	Skills
-•	Projects
-•	Contact
+- Home
+- Pitch
+- History
+- Skills
+- Projects
+- Contact
 
 ### **Home**
 The landing page (home) comprises of three unique elements: a welcome message, some brief information, and a photograph of me.
@@ -172,9 +172,9 @@ The landing page (home) comprises of three unique elements: a welcome message, s
 The **welcome message** is simple and concise: “welcome to my online CV”. 
 
 The **brief information** consists of:
-•	My name and what it is that I do, invaluable information for all target users.
-•	My professional philosophy: “the simplest solution is the best solution”. This is included for three reasons. First, to showcase a little personality and grab the user’s attention. Second, to set the pace for the website, which is both simple but also a complete solution. Third, it alludes to the mathematical principle that the best solution to any mathematical problem is the simplest, allowing for both the maximum utility and minimum effort in using that solution in other mathematical problems. This final point is both a nod to my own background, but also a reminder to the keen reader that mathematics and computer programming logic share this core tenet, therefore subtly aligning my own strengths with the field in which I will work.
-•	What I am seeking: employment and collaboration. By adding this front and centre there’s no ambiguity for any of the target users.
+- My name and what it is that I do, invaluable information for all target users.
+- My professional philosophy: “the simplest solution is the best solution”. This is included for three reasons. First, to showcase a little personality and grab the user’s attention. Second, to set the pace for the website, which is both simple but also a complete solution. Third, it alludes to the mathematical principle that the best solution to any mathematical problem is the simplest, allowing for both the maximum utility and minimum effort in using that solution in other mathematical problems. This final point is both a nod to my own background, but also a reminder to the keen reader that mathematics and computer programming logic share this core tenet, therefore subtly aligning my own strengths with the field in which I will work.
+- What I am seeking: employment and collaboration. By adding this front and centre there’s no ambiguity for any of the target users.
 
 The **photograph** of me adds a face to the name, something non-essential, but nice to have. Humans enjoy dealing with humans.
 
@@ -187,11 +187,11 @@ The **heading** is clear and concise: “The elevator pitch.” This tells the u
 
 The **elevator icons** reinforce the theme of this section in a metaphorical manner while also breaking up the text nicely. A ‘two-person’ elevator icon was chosed to subtly imply that I’m talking directly with the user one-on-one.
 
-The **text** is broken into four sections, each section bringing its own punch:
-1.	Education: this sets the stage by using words like “natural” and “proven”, which are confirmed in the next section where my degree is presented. It also uses “enhancing” for my tech skills, a subtle nod to the fact I have some competence already.
-2.	Business experience: this packs a punch that looks to condense my diverse career so far into a single powerful sentence that is relevant to the target users.
-3.	Key strength: this focuses on one key personal strength, by saying a similar thing in three different ways. This is a technique to reinforce a single point strongly, and this is my biggest personal strength. I feel this is more powerful than listing buzzwords that anyone can list but have all but lost meaning to recruiters. Finally, I back this up with an invite to call me immediately. The goal here is to set myself aside from recent tech graduates who may have a higher technical skillset on paper, but fewer business/social skills, which is something I’ve learned is an issue from speaking to tech recruiters directly at Newcastle’s Tech Talent event in 2019.
-4.	Values-based CTA: this shows that I’m considered when it comes to my work, that I’m not just looking for the highest bidder, which is a recipe for high turnover as other positions become available in competing companies, but instead that my drive is around strong values. If a user shares these values, this would be a difficult CTA to completely overlook.
+The **text** is broken into four sections, each section packing its own punch:
+1.	*Education*: this sets the stage by using words like “natural” and “proven”, which are confirmed in the next section where my degree is presented. It also uses “enhancing” for my tech skills, a subtle nod to the fact I have some competence already.
+2.	*Business experience*: this looks to condense my diverse career so far into a single powerful sentence that is relevant to the target users.
+3.	*Key strength*: this focuses on one key personal strength, by saying a similar thing in three different ways. This is a technique to reinforce a single point strongly, and this is my biggest personal strength. I feel this is more powerful than listing buzzwords that anyone can list but have all but lost meaning to recruiters. Finally, I back this up with an invite to call me immediately. The goal here is to set myself aside from recent tech graduates who may have a higher technical skillset on paper, but fewer business/social skills, which is something I’ve learned is an issue from speaking to tech recruiters directly at Newcastle’s Tech Talent event in 2019.
+4.	*Values-based CTA*: this shows that I’m considered when it comes to my work, that I’m not just looking for the highest bidder, which is a recipe for high turnover as other positions become available in competing companies, but instead that my drive is around strong values. If a user shares these values, this would be a difficult CTA to completely overlook.
 
 The **teaser** for this section is: “see my history”. This is intentionally less enticing than previously, as I don’t want to distract too much from the CTA just above it.
 
@@ -206,7 +206,7 @@ The **work/education information** is broken into four sections:
 1.	The dates I worked for/studied at each organisation
 2.	The organisation’s name
 3.	The role/qualification
-4.	My key responsibilities/achievements
+4.	My key achievement(s)
 
 The **teaser** for this section is: “check my skills”. This continues with the personable tone as the user settles into the website and familiarity can increase slightly, while still maintaining conciseness and clarity.
 
@@ -226,19 +226,19 @@ The **teaser** for this section is: “view my work”, continuing in the same c
 ### **Projects**
 The skills section has three unique elements: the main heading, the sub-headings, and the projects.
 
-The **heading** continues in the same tone: “Recent Projects.” Recent is used as not all projects will be added, just those that add value.
+The **heading** continues in the same tone: “Recent projects.” Recent is used as not all projects will be added, just those that add value.
 
 The **sub-headings** distinguish between projects that are in progress, and those that were completed in 2021. Additional years will populate as time goes by.
 
 The **projects** are in their own accented box and contain:
-- A screenshot of the project
+- A screenshot of the project (not yet implemented)
 - The project type and customer name
 - A short outline of the project
 - Relevant links to the project, including the live site, GitHub and the wireframes
 
 The **tools** section showcases my familiarity regarding a range of tools that are relevant to the field. Again, icons play on metaphorical psychology.
 
-The **teaser** for this section is: “view my work”, continuing in the same clear, friendly but professional tone.
+The **teaser** for this section is: “get in touch”, continuing in the same tone, although a little more direct now as this is decision time.
 
 ### **Contact**
 The contact section has four unique elements: the contact form, the CV download, the additional contact methods, and the social media links.
@@ -249,7 +249,7 @@ The option to **download a CV** is added here instead of higher in the site as p
 
 The **additional contact methods** are again to ensure minimal friction. There’s an argument that by providing multiple channels you can give the user too many options, and therefore cause friction. I believe that this friction is worth the trade-off to allow recruiters and employers the option to email me directly and to call me, two options I have personally preferred when I have recruited in the past.
 
-The **social media links** are repeated again here in the same order. This is important, as I expect more people are likely to connect with me on social media after having read the site than before.
+The **social media links** are repeated again here in the same order. This is important, as I expect more people are likely to connect with me on social media after having read the site rather than before.
 
 ### **Footer**
 As a nod to collaboration and open-source I’ve left this without copyright. The basic nature of the site means this is a safe enough option in this case.
@@ -262,7 +262,7 @@ As a nod to collaboration and open-source I’ve left this without copyright. Th
 The development was done in three stages. First, the site was built section-by-section using a mobile-first approach based on the smallest main breakpoint outlined below (under 576px). Second, the necessary steps were taken to ensure compatibility with a range of screen sizes. Third, amendments and additions were made to ensure accessibility for a range of viewing approaches. This section outlines these three steps in turn.
 
 ### **Initial Development**
-The following is a series of notes that explain any development-related issues on the first development run, as well as any deviation from convention. The first run was done with the smallest typical screen size in mind, a portrait mobile phone (under 585px). To develop this, 
+The following is a series of notes that explain any development-related issues on the first development run, as well as any deviation from convention. The first run was done with the smallest typical screen size in mind, a portrait mobile phone (under 585px).
 
 #### *Navigation*
 The navigation bar utilised bootstrap’s feature set, however, I deleted as much as I could while retaining its core functionality to ensure minimalistic code. The menu wasn’t encapsulated in an unordered list format, breaking relatively rigorous convention, I am aware. The Bootstrap site highlighted this was [acceptable](https://getbootstrap.com/docs/4.4/components/navs/) and another [interesting article](https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/) I found made the case for removing the list feature from all navigation based on accessibility. Due to this, and in keeping with the ‘philosophy’ of the site (and development as a whole) in the fact that minimalistic code that serves the full purpose is both faster to run and easier to maintain, these were then omitted.
@@ -301,13 +301,16 @@ The programming skills progress bar chart was taken from [Camila Carrera on Code
 
 #### *Projects*
 During development of the projects page, a random guttering appeared to the right of the elements in the Gitpod viewer. This was distorting the project element width as Bootstrap was taking it into account as part of its 12-section row, but only for this section. I couldn’t find the cause after disabling pretty much everything I could think it might be. In the end, the code below was [found on stack overflow](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) and turned out to fix the problem completely.
-html, body
 
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+    html, body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden; 
+    {
+
+I also decided at this point that keeping the details about the projects sparse would be acceptable since the work done/being done is so limited at this point.
 
 <div align="center"><img src="/assets/readme-img/first-run-6.png" style="width:500px" alt="screenshot of the homepage"></div>
 
@@ -331,11 +334,11 @@ These breakpoints are:
 - 1200px
 
 This results in the following screen sizes (taken from Bootstrap):
-- Extra-small devices (portrait phones, less than 576px) [DEFAULT]
-- Small devices (landscape phones, 576px and up)
-- Medium devices (tablets, 768px and up)
-- Large devices (desktops, 992px and up)
-- Extra-large devices (large desktops, 1200px and up)
+- **Extra-small devices** (portrait phones, less than 576px) [DEFAULT]
+- **Small devices** (landscape phones, 576px and up)
+- **Medium devices** (tablets, 768px and up)
+- **Large devices** (desktops, 992px and up)
+- **Extra-large devices** (large desktops, 1200px and up)
 
 In spite of this efficient solution, and as mentioned above, there was still the need to add a small number of media queries to allow for awkward-appearing screen sizes. These, alongside the breakpoint changes implemented for each screen size, are detailed here section by section.
 
@@ -343,9 +346,9 @@ In spite of this efficient solution, and as mentioned above, there was still the
 The navigation menu utilises a hamburger icon (Unicode used) with a standard Bootstrap breakpoint at 768px. I added some padding to the social media icons at this point to ensure they aligned well with the menu links and increased the text size of the main menu at 992px to suit larger screen sizes.
 
 #### *Home*
-The content on the home page includes a welcome message on the first row, then an attention-grab text and an image in two columns. Since the landing page is the first thing users see, I spent a little time ensuring no matter the screen size, this looked right. To do this, I used max-width media queries at 350px and 400px to control padding and where text breaks for the smaller screen size range, and a series of min-width media queries for higher screen sizes.
+The content on the home page includes a welcome message on the first row, then an attention-grab text and an image in two columns. Since the landing page is the first thing users see, I spent a little time ensuring no matter the screen size, this looked right. To do this, I used a combination of max-width and min-width media queries at multiple points under 576px to control padding and where text breaks for the smaller screen size range.
 
-I also reversed the order of the columns and adjusted their sizes so they would stack nicely with the image above the text on smaller screens. I got the insight for the simplicity of this solution from [J Fiddle on Stack Overflow](https://stackoverflow.com/questions/33082796/how-to-reverse-the-order-of-elements-in-media-queries)
+I also reversed the order of the columns and adjusted their sizes so they would stack nicely with the image above the text on smaller screens. I got the insight for the simplicity of this solution from [J Fiddle on Stack Overflow](https://stackoverflow.com/questions/33082796/how-to-reverse-the-order-of-elements-in-media-queries).
 
 Originally, I had planned for the image to disappear on smaller devices, but since it is the only image on the site, and since recruiters like to see what potential employers look like, I decided losing this wasn’t acceptable.
 
@@ -360,50 +363,50 @@ Originally, I had planned for the image to disappear on smaller devices, but sin
 <div align="center"><img src="/assets/readme-img/homepage-responsive-5.png" style="height:500px" alt="screenshot of the homepage"></div>
 
 #### *Pitch*
-The pitch section is based on the idea of an elevator going down. As such the content needed to remain centred and not spread out. I used Bootstrap’s default column settings (shown below) and some padding to achieve this:
+The pitch section is based on the idea of an elevator going down. As such the content needs to remain centred and not spread out. I used Bootstrap’s default column settings (shown below) and some padding to achieve this:
 
     col-10 col-md-8 col-lg-6
 
-This meant as the screen grew, the portion of the screen each column took up would shrink and avoided the need for any media queries.
+This means as the screen grows, the portion of the screen each column takes up shrinks, avoiding the need for any media queries.
 
 
 #### *History*
-Since the timeline was not going to be utilised, this made the history section flexible to spread into multiple columns for larger screen sizes. Again, Bootstrap’s inbuilt grad system was leveraged to avoid the need for any media queries:
+Since the timeline was not going to be utilised, this made the history section flexible to spread into multiple columns for larger screen sizes. Again, Bootstrap’s inbuilt grid system was leveraged to avoid the need for any media queries:
 
     col-12 col-md-6 col-lg-4
 
-This meant the default column with would take full screen (mobile-first), then two columns would appear for medium screens (over 768px) and three columns for large screens (over 992px). With six items in the list, this worked nicely. Finally, I used a container for this section to ensure the content did not reach the edges. 
+This means the default column width takes full screen (mobile-first), then two columns appear for medium screens (over 768px) and three columns for large screens (over 992px). With six items in the list, this works nicely. Finally, I used a container for this section to ensure the content does not reach the edges. 
 
 <div align="center"><img src="/assets/readme-img/history-section.png" style="height:500px" alt="screenshot of the homepage"></div>
 
 #### *Skills*
-The skills section also took advantage of Bootstrap’s grid functionality:
+The skills section also takes advantage of Bootstrap’s grid functionality:
 
     col-8 col-md-5
 
-Here, the two skills boxes only take up 8/12 of the screen ensuring centred content, and then they align side-by-side on medium screens. I’ve used md-5 to allow for a margin between the boxes which is built into the CSS.
+Here, the two skills boxes only take up 8/12ths of the screen ensuring centred content, and then they align side-by-side on medium screens. I’ve used md-5 to allow for a margin between the boxes which is built into the CSS.
 
-The programming bar chart utilised bootstrap in the simplest way:
+The programming bar chart utilises bootstrap in the simplest way:
 
     col-8
 
-This ensured that for all screen sizes, this element would only take up 8/12 of the screen.
+This ensures that for all screen sizes, this element only takes up 8/12ths of the screen.
 
 <div align="center"><img src="/assets/readme-img/skills-section.png" style="height:500px" alt="screenshot of the homepage"></div>
 
 #### *Projects*
-Again, the projects section utilised Bootstrap:
+Again, the projects section utilises Bootstrap:
 
     col-8 col-sm-5 col-md-3
 
-As above, this allowed for margins to be left between the items while allowing for three different formats: a single column on small screens, two columns on medium screens and three columns on larger screens.
+As above, this allows for margins to be left between the items while allowing for three different formats: a single column on small screens, two columns on medium screens and three columns on larger screens.
 
-This looks relatively blank right now, but in time this will of course fill up.
+This looks relatively blank right now, but in time this will of course fill up, at which point I will add screenshots of my work as a background to the boxes on hover/focus, as per future developments.
 
 <div align="center"><img src="/assets/readme-img/projects-section.png" style="height:500px" alt="screenshot of the homepage"></div>
 
 #### *Contact*
-Finally, the contact form also used Bootstrap to adjust size at the relevant breakpoints:
+Finally, the contact form also uses Bootstrap to adjust size at the relevant breakpoints:
 
     col-10 col-md-9 col-lg-8 col-xl-7
 
@@ -426,7 +429,7 @@ The following accessibility considerations are based on the best ‘checklist’
 - The website remains readable at 200% zoom.
 - All page elements can be tabbed to and there are no interactive elements.
 - Headings and link text are all descriptive enough not to require additional tags.
-- The colours used in the design of the website met the WCAG triple A standard, with the exception of the purple text under the contact form. As such, this was changed to ensure all text meets the [WCAG triple A gold standard](https://webaim.org/resources/contrastchecker/).
+- On first run, the colours used in the design of the website met the WCAG triple A standard, with the exception of the purple text under the contact form. As such, this was changed to ensure all text meets the [WCAG triple A gold standard](https://webaim.org/resources/contrastchecker/).
 - No content flashes or blinks more than three times per second.
 - The focus indicator is not hidden.
 - Colour is not used to convey meaning.
@@ -459,7 +462,7 @@ The following accessibility considerations are based on the best ‘checklist’
 - [Bootstrap 4.1.3](https://getbootstrap.com/) was used for layout, responsiveness and some styling.
 - [Google fonts](https://fonts.google.com/) were used to import the two fonts used, Montserrat and Roboto.
 - [Font Awesome](https://fontawesome.com/) was used for some icons to ensure an aesthetic look.
-- [ICONSFLOW](https://iconsflow.com/) was used for some icons to ensure an aesthetic looks.
+- [ICONSFLOW](https://iconsflow.com/) was used for some icons to also ensure an aesthetic look.
 - [Hover.css](https://ianlunn.github.io/Hover/) was used to grow the links throughout the page.
 - [Canva](https://www.canva.com/en_gb/) was used to edit the image and some icons before importing into Gitpod.
 - [Figma]( https://www.figma.com/) was used to create the wireframes and mockups during the design process.
@@ -474,11 +477,11 @@ The following accessibility considerations are based on the best ‘checklist’
 The website was tested from various angles: code, user perspectives, functionality and responsiveness/accessibility.
 
 ### **Testing Code**
-The code was ran through multiple code validators. This resulted in minor adjustments before repeating the process. The validators and results are as follows:
-- [W3C Markup Validator](http://validator.w3.org): Pass no errors 
+The code was ran through multiple code validators. This resulted in minor adjustments before repeating the process. The validators and final results are as follows:
+- [W3C Markup Validator](http://validator.w3.org): Pass no errors
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): Pass no errors
 - [Rakko HTML5 validator](https://en.rakko.tools/tools/58/): Pass no errors
-- [W3C Link checker](https://validator.w3.org/checklink): Pass no errors
+- [W3C Link checker](https://validator.w3.org/checklink): Pass no relevant errors (Twitter, LinkedIn returned errors due to scripting on the respective sites)
 
 ### **Testing User Stories**
 The site’s **primary users**, employers and recruiters, will want:
@@ -517,8 +520,8 @@ The site’s **secondary users**, collaborators, will want:
 
 4.	To obtain key information about me, specifically:
 - My current skillset with competence levels where applicable.
-- The projects I have worked on and the briefs I have worked to in these projects.
-> Both of these elements have their own section, and front and centre of each project there is a single sentence brief.
+- The projects I have worked on and the code I have developed in these projects.
+> Both of these elements have their own section, and underneat each completed project there is a link to the relevant code.
 
 5.	To be able to contact me in their preferred manner.
 > There is a dedicated page for contacting me, including via essentially eight channels: contact form, telephone, email, and via five social media channels.
@@ -532,27 +535,27 @@ Return visitors will want to:
 
 ### **Testing Functionality**
 I tested the functionality of the site by completing the following tests:
-- I tried all links
+- **I tried all links**
     - Off-site links open in a new browser
-- On-site navigation links work properly
-    - I tested the website on the three most-used browsers.
-- Safari
-- Chrome
-- FireFox
-    - I tested the contact form to ensure it was working properly.
-- Any missing info returns an error message.
-- An incorrect email format returns an error message.
-- The correct info doesn’t do anything yet as the backend isn’t configured. (To be updated.)
+    - On-site navigation links work properly
+- **I tested the website on the three most-used browsers**
+    - Safari
+    - Chrome
+    - FireFox
+- **I tested the contact form to ensure it was working properly**
+    - Any missing info returns an error message
+    - An incorrect email format returns an error message
+    - The correct info doesn’t do anything yet as the backend isn’t configured
 
 ### **Testing Accessibility & Responsiveness**
-- I tried this on a range of screens:
+- **I tried this on a range of screens**:
     - An iPhone 5 with a 4” screen
     - An iPhone XS with a 5.8” screen
-    - A small tablet (TBC – DAD)
+    - A small tablet with ~7" screen
     - An iPad Pro with a 10.5” screen
     - A MacBook Pro with a 13” screen
-    - A 50” LG TV (For fun)
-- The site was tested for accessibility use the Web Accessibility Evaluation Tool. The results can be [seen here](https://wave.webaim.org/report#/https://trdownie.github.io/ucd-cv-website/)
+- **The site was tested for accessibility use the Web Accessibility Evaluation Tool**
+    - The results can be [seen here](https://wave.webaim.org/report#/https://trdownie.github.io/ucd-cv-website/)
 
 ### **Known Bugs**
 - There are no known bugs with this website. If you spot one – please [get in touch](mailto:trdownie@gmail.com).
@@ -564,7 +567,7 @@ I tested the functionality of the site by completing the following tests:
 
 -----------------------------
 
-This section outlines deploying projects from GitHub.
+This section outlines deploying projects using GitHub Pages, and how to fork and clone Repositories.
 
 ### **GitHub Pages**
 This project was deployed using GitHub Pages. To do this:
@@ -583,7 +586,7 @@ Repositories can be forked, which essentially makes a copy so that anyone can wo
 3.	Locate the Fork button (above the repository and Settings button)
 4.	Click the Fork button to create a copy of the original Repository in your GitHub account
 
-### **Making a Local Clone**
+### **Making a Local Clone using Git Bash**
 You can clone a repository and store it locally. To do this:
 1.	Create GitHub account/login to GitHub
 2.	Create/locate the Repository you want to clone
@@ -620,6 +623,9 @@ The CV download is an old CV. This will be updated before applying for positions
 #### *Navigation*
 At a future date I will make the menu bar into a sticky using JS, and also use alternative colours for each sections as per mock-ups.
 
+#### *Landing Page*
+Once I have more experience with flexboxes I will ensure an improved landing page layout that matches viewport height and increases element size to suit.
+
 #### *GIF Photograph*
 I may change the photo on the home page to a GIF of me smiling. This is a little gimmicky, so I haven’t added this yet and instead will wait until I get some professional feedback on the site.
 
@@ -628,6 +634,15 @@ When barber shops and office blocks are open again, I will add a video elevator 
 
 #### *Interactive Pitch*
 Once I have the competence, I will change the elevator icons and associated text to load in continuous flow as the user scrolls down to mimic an elevator.
+
+#### *Project Screenshots*
+Once I have completed more projects, I will add screenshots of these as the background images to the project boxes on hover/focus.
+
+#### *Contact Form*
+I will set up the back end database to ensure full functionality of the contact form at a future date. 
+
+#### *CV Download*
+A revised CV will be added ASAP.
 
 #### *Scope*
 At a future date, when I begin freelancing, I may split the site into two versions, one for recruiters and one for clients, with a master landing page that asks which the user is. The colour scheme will invert completely for clients, the pitch page will revolve more around addressing client needs in a specific niche, the history page will be replaced by testimonials, and the skills page will be replaced by specific, relevant offerings, such as ‘website design’.
@@ -654,9 +669,12 @@ All code was written entirely by the developer, with the exception of adapted co
 All copy was written by the developer.
 
 ### **Media**
-All images were created by the developer.
+All images were created by the developer with the exception of:
+- Icons in the history section and footer, that were taken from ICONSFLOW.
+- Icons in the social media links and up/down arrows which were taken from Font Awesome.
 
 ### **Information**
+Information was gleaned from a range of sources, the most pertinent of which were:
 
 - [Designing for different screen sizes](https://uxdesign.cc/designing-for-different-screen-sizes-devices-part-1-47e6e481abde?gi=2974bb2a8963)
 - [Developing with Web Standards – Recommendations and best practices](https://www.456bereastreet.com/lab/developing_with_web_standards/structure/)
@@ -670,7 +688,7 @@ All images were created by the developer.
 
 I would like to thank:
 - [Code Institute](https://codeinstitute.net/) for the excellent material and [Medale Oluwafemi](https://github.com/omedale) for the invaluable mentoring.
-- [Karina Finnegan](https://github.com/kairosity), in particular [this project](https://github.com/kairosity/ucd-resume), for design inspiration.
+- [Karina Finnegan](https://github.com/kairosity), in particular [this project](https://github.com/kairosity/ucd-resume), for design and README inspiration.
 - My family and those around me who put up with 72-hour plus reply times to messages when I’m deep into the syntax, both code and conventional.
 - The countless people before me who’ve iteratively built human civilisation to this point. We live in exciting times and I’m eternally grateful for that fact.
 
