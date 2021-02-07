@@ -38,6 +38,8 @@
 
 /*----------------------------------  Elements  ------------------------------------------*/
 
+/* CODE TAKEN FROM HOVER.CSS GROW */
+
 html, body
 {
     width: 100%;
@@ -123,7 +125,7 @@ body {
     text-align: left;
 }
 
-/* CODE TAKEN FROM HOVER.CSS GROW */
+/* CODE CREDIT: TAKEN FROM HOVER.CSS GROW */
 .hvr-grow {
     display: inline-block;
     vertical-align: middle;
@@ -140,7 +142,7 @@ body {
 .hvr-grow:active {
     transform: scale(1.1);
 }
-/*  END OF HOVER.CSS CODE  */
+/*  END OF CODE CREDIT  */
 
 /*----------------------------------  Sitewide  ------------------------------------------*/
 
