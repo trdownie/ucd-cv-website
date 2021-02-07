@@ -564,8 +564,10 @@ The following problems were encountered and addressed:
 >These were fixed within the code and the test repeated.
 - The PDF file would not open in another window.
 >This was due to me using a local path and not the full file path.
+- The images in this README resize in the preview here but do not in GitHub.
+>If you know how to fix this - please let me know by clicking the link below!
 
-Currently, there are no known bugs with this website. If you spot one – please [get in touch](mailto:trdownie@gmail.com).
+Other than these images, there are no known bugs with the live site. If you spot one – please [get in touch](mailto:trdownie@gmail.com).
 
 -----------------------------
 
