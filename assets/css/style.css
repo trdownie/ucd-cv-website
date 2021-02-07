@@ -52,7 +52,7 @@ html, body
 }
 
 h1 {
-    padding: 50px 20px;
+    padding: 20px;
 }
 
 h2 {
@@ -241,8 +241,7 @@ body {
     text-align: center;
     vertical-align: center;
     width: 50%;
-    padding-right: 10px;
-    min-width: 50px;
+    min-width: 150px;
     min-height: auto;
 }
 
@@ -469,10 +468,6 @@ body{
     font-size: var(--md-font);
     padding: 0;
     }
-/*  HOME SECTION: Image centres in the space available */
-    #selfie {
-    padding-top: 15px;
-    }
 }
 
 @media screen and (max-width: 400px) {
@@ -490,11 +485,11 @@ body{
 }
 
 @media screen and (max-width: 575px) {
-/*  HOME SECTION: Content switches to stacked on super-small screens */
+/*  HOME SECTION: Content switches to stacked */
     #main-heading {
-        padding: 50px 0px 50px 20px;
+        padding: 30px 0px 30px 20px;
     }
-/*  CODE CREDIT: THIS SINGLE LINE IS TAKEN FROM JS FIDDLE ON STACK OVERFLOW  */
+/*  CODE CREDIT: THIS LINE WAS TAKEN FROM JS FIDDLE ON STACK OVERFLOW  */
 /*  (https://stackoverflow.com/questions/33082796/how-to-reverse-the-order-of-elements-in-media-queries)  */
     .home-content {
         flex-direction: column-reverse;
