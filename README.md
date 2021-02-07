@@ -107,9 +107,9 @@ As you can see, the **layout** reinforces the objective of the site: to funnel u
 
 The following **features** are on display here:
 - *Landing Page*: Introductory text, welcome to the site and image of me
-- *Pitch*: an elevator icon and 4 small chunks of text to add metaphorical value and break up the text
-- *History*: icons for each of the roles I’ve had, again adding metaphorical value to help interpretation
-- *Skills*: more icons, again adding metaphorical value, and a bar chart representing progress in a visually appealing and logical way
+- *Pitch*: an elevator icon and 4 small chunks of text to add **metaphorical** value and break up the text
+- *History*: icons for each of the roles I’ve had, again adding **metaphorical** value to help interpretation
+- *Skills*: more icons, again adding **metaphorical** value, and a bar chart representing progress in a visually appealing and logical way
 - *Projects*: screenshots of the projects so the user can see at a glance work that has been done.
 - *Contact*: multiple ways to contact me – contact form, telephone number, email address and social media links
 - *Contact*: a simple link to a downloadable PDF CV 
@@ -138,18 +138,18 @@ The project is relatively light on features as dictated by what is necessary to 
 ### **Core Features**
 Three elements have been used throughout to maintain a consistent layout and support the user goal of being able to quickly access the information they require quickly.
 
-The teaser button is used on each section (except the last section). As the last thing on each page, this prompts the user to click the arrow and follow the website in sequential order, which is my preferred navigation path for the user.
+The **teaser button** is used on each section (except the last section). As the last thing on each page, this prompts the user to click the arrow and follow the website in sequential order, which is my preferred navigation path for the user.
 
-Each section has a heading that is short, sharp and concise, and balances professionalism with personality. This keeps things simple and immediately sets the scene for each section.
+Each section has a **heading** that is short, sharp and concise, and balances professionalism with personality. This keeps things simple and immediately sets the scene for each section.
 
-The nav menu is sticky, therefore travelling with the user as they explore each section. 
+The **nav menu** was meant to be sticky, therefore travelling with the user as they explore each section. This was not completed due to limitations outlined below.
 
 ### **Header**
-The header bar is transparent and changes colour to contrast against the background of the changing sections adding a touch of flare to the project. The section the user is currently on is highlighted in the relevant accent colour and also an underline. In addition, hovering over the words or icons will elicit a colour change in the respective accent colour, but the underline will remain only on the current section, allowing a distinction for user-friendliness.
+The header bar design is transparent and changes colour to contrast against the background of the changing sections adding a touch of flare to the project. The section the user is currently on is highlighted in the relevant accent colour and also an underline. In addition, hovering over the words or icons will elicit a colour change in the respective accent colour, but the underline will remain only on the current section, allowing a distinction for user-friendliness.
 
-The header is split into two sections: the social menu (left) and the nav menu (right).
+The header is split into two sections: **the social menu** (left) and the **nav menu** (right).
 
-The social menu contains the following social media links, in descending order of importance to users:
+The **social menu** contains the following social media links, in descending order of importance to users:
 •	GitHub, where I share code
 •	LinkedIn, my professional profile
 •	Medium, where I write occasionally about technology
@@ -158,7 +158,7 @@ The social menu contains the following social media links, in descending order o
 
 I considered removing these links as I don’t want to funnel users straight to my social media links on their arrival, and leave the links only on the last page, but I believe the benefit to repeat visitors outweighs this.
 
-The nav menu contains the menu with six navigational links, which are intentionally concise:
+The **nav menu** contains the menu with six navigational links, which are intentionally concise:
 •	Home
 •	Pitch
 •	History
@@ -169,87 +169,87 @@ The nav menu contains the menu with six navigational links, which are intentiona
 ### **Home**
 The landing page (home) comprises of three unique elements: a welcome message, some brief information, and a photograph of me.
 
-The welcome message is simple and concise: “welcome to my online CV”. 
+The **welcome message** is simple and concise: “welcome to my online CV”. 
 
-The brief information consists of:
+The **brief information** consists of:
 •	My name and what it is that I do, invaluable information for all target users.
 •	My professional philosophy: “the simplest solution is the best solution”. This is included for three reasons. First, to showcase a little personality and grab the user’s attention. Second, to set the pace for the website, which is both simple but also a complete solution. Third, it alludes to the mathematical principle that the best solution to any mathematical problem is the simplest, allowing for both the maximum utility and minimum effort in using that solution in other mathematical problems. This final point is both a nod to my own background, but also a reminder to the keen reader that mathematics and computer programming logic share this core tenet, therefore subtly aligning my own strengths with the field in which I will work.
 •	What I am seeking: employment and collaboration. By adding this front and centre there’s no ambiguity for any of the target users.
 
-The photograph of me adds a face to the name, something non-essential, but nice to have. Humans enjoy dealing with humans.
+The **photograph** of me adds a face to the name, something non-essential, but nice to have. Humans enjoy dealing with humans.
 
-The teaser used here is: “hear my pitch”. This should be exactly what primary users are looking for; therefore, this is a strong invitation to follow my preferred navigation system.
+The **teaser** used here is: “hear my pitch”. This should be exactly what primary users are looking for; therefore, this is a strong invitation to follow my preferred navigation system.
 
 ### **Pitch**
 The elevator pitch comprises three unique elements: a heading, elevator icons, and some text.
 
-The heading is clear and concise: “The elevator pitch.” This tells the user what is going on with the icons and informs them this will be a quick process therefore reducing the user’s desire to scroll.
+The **heading** is clear and concise: “The elevator pitch.” This tells the user what is going on with the icons and informs them this will be a quick process therefore reducing the user’s desire to scroll.
 
-The elevator icons reinforce the theme of this section in a metaphorical manner while also breaking up the text nicely. A ‘two-person’ elevator icon was chosed to subtly imply that I’m talking directly with the user one-on-one.
+The **elevator icons** reinforce the theme of this section in a metaphorical manner while also breaking up the text nicely. A ‘two-person’ elevator icon was chosed to subtly imply that I’m talking directly with the user one-on-one.
 
-The text is broken into four sections, each section bringing its own punch:
+The **text** is broken into four sections, each section bringing its own punch:
 1.	Education: this sets the stage by using words like “natural” and “proven”, which are confirmed in the next section where my degree is presented. It also uses “enhancing” for my tech skills, a subtle nod to the fact I have some competence already.
 2.	Business experience: this packs a punch that looks to condense my diverse career so far into a single powerful sentence that is relevant to the target users.
 3.	Key strength: this focuses on one key personal strength, by saying a similar thing in three different ways. This is a technique to reinforce a single point strongly, and this is my biggest personal strength. I feel this is more powerful than listing buzzwords that anyone can list but have all but lost meaning to recruiters. Finally, I back this up with an invite to call me immediately. The goal here is to set myself aside from recent tech graduates who may have a higher technical skillset on paper, but fewer business/social skills, which is something I’ve learned is an issue from speaking to tech recruiters directly at Newcastle’s Tech Talent event in 2019.
 4.	Values-based CTA: this shows that I’m considered when it comes to my work, that I’m not just looking for the highest bidder, which is a recipe for high turnover as other positions become available in competing companies, but instead that my drive is around strong values. If a user shares these values, this would be a difficult CTA to completely overlook.
 
-The teaser for this section is: “see my history”. This is intentionally less enticing than previously, as I don’t want to distract too much from the CTA just above it.
+The **teaser** for this section is: “see my history”. This is intentionally less enticing than previously, as I don’t want to distract too much from the CTA just above it.
 
 ### **History**
 The history section has three unique elements: the heading, the timeline, and the work/education information.
 
-The heading is again clear and concise but also a little colloquial: “How I got here.” This is to blend professionalism with personality as mentioned above.
+The **heading** is again clear and concise but also a little colloquial: “How I got here.” This is to blend professionalism with personality as mentioned above.
 
-The timeline is a logical representation of my employment history. Icons are used to attach meaning to each role and add metaphorical value to the user so they can quickly classify my previous positions. 
+The **timeline** is a logical representation of my employment history. Icons are used to attach meaning to each role and add metaphorical value to the user so they can quickly classify my previous positions. 
 
-The work/education information is broken into four sections:
+The **work/education information** is broken into four sections:
 1.	The dates I worked for/studied at each organisation
 2.	The organisation’s name
 3.	The role/qualification
 4.	My key responsibilities/achievements
 
-The teaser for this section is: “check my skills”. This continues with the personable tone as the user settles into the website and familiarity can increase slightly, while still maintaining conciseness and clarity.
+The **teaser** for this section is: “check my skills”. This continues with the personable tone as the user settles into the website and familiarity can increase slightly, while still maintaining conciseness and clarity.
 
 ### **Skills**
 The skills section has four unique elements: the heading, key skills, programming, and tools.
 
-The heading continues in the same tone: “What I can do.”
+The **heading** continues in the same tone: “What I can do.”
 
-The key skills section is a high-level view of what I can do. This is valuable to recruiters and employers according to my private employment coach who tailored my CV in 2019. Again, an icon is used to enhance aesthetic and to add metaphorical benefit.
+The **key skills** section is a high-level view of what I can do. This is valuable to recruiters and employers according to my private employment coach who tailored my CV in 2019. Again, an icon is used to enhance aesthetic and to add metaphorical benefit.
 
-The programming section is a commonly used bar graph that highlights the level of competence I have for each of the specific skills. This has been done in ascending order from the highest to lowest to allow repeat visitors, if they so wish, to see how my focus and skillset changes.
+The **programming** section is a commonly used bar graph that highlights the level of competence I have for each of the specific skills. This has been done in ascending order from the highest to lowest to allow repeat visitors, if they so wish, to see how my focus and skillset changes.
 
-The tools section showcases my familiarity regarding a range of tools that are relevant to the field. Again, icons play on metaphorical psychology.
+The **tools** section showcases my familiarity regarding a range of tools that are relevant to the field. Again, icons play on metaphorical psychology.
 
-The teaser for this section is: “view my work”, continuing in the same clear, friendly but professional tone.
+The **teaser** for this section is: “view my work”, continuing in the same clear, friendly but professional tone.
 
 ### **Projects**
 The skills section has three unique elements: the main heading, the sub-headings, and the projects.
 
-The heading continues in the same tone: “Recent Projects.” Recent is used as not all projects will be added, just those that add value.
+The **heading** continues in the same tone: “Recent Projects.” Recent is used as not all projects will be added, just those that add value.
 
-The sub-headings distinguish between projects that are in progress, and those that were completed in 2021. Additional years will populate as time goes by.
+The **sub-headings** distinguish between projects that are in progress, and those that were completed in 2021. Additional years will populate as time goes by.
 
-The projects are in their own accented box and contain:
+The **projects** are in their own accented box and contain:
 - A screenshot of the project
 - The project type and customer name
 - A short outline of the project
 - Relevant links to the project, including the live site, GitHub and the wireframes
 
-The tools section showcases my familiarity regarding a range of tools that are relevant to the field. Again, icons play on metaphorical psychology.
+The **tools** section showcases my familiarity regarding a range of tools that are relevant to the field. Again, icons play on metaphorical psychology.
 
-The teaser for this section is: “view my work”, continuing in the same clear, friendly but professional tone.
+The **teaser** for this section is: “view my work”, continuing in the same clear, friendly but professional tone.
 
 ### **Contact**
 The contact section has four unique elements: the contact form, the CV download, the additional contact methods, and the social media links.
 
-The contact form is relatively basic and follows convention. This allows minimum friction between users and contact.
+The **contact form** is relatively basic and follows convention. This allows minimum friction between users and contact.
 
-The option to download a CV is added here instead of higher in the site as preferentially this is an addition to the site, not a replacement for it.
+The option to **download a CV** is added here instead of higher in the site as preferentially this is an addition to the site, not a replacement for it.
 
-The additional contact methods are again to ensure minimal friction. There’s an argument that by providing multiple channels you can give the user too many options, and therefore cause friction. I believe that this friction is worth the trade-off to allow recruiters and employers the option to email me directly and to call me, two options I have personally preferred when I have recruited in the past.
+The **additional contact methods** are again to ensure minimal friction. There’s an argument that by providing multiple channels you can give the user too many options, and therefore cause friction. I believe that this friction is worth the trade-off to allow recruiters and employers the option to email me directly and to call me, two options I have personally preferred when I have recruited in the past.
 
-The social media links are repeated again here in the same order. This is important, as I expect more people are likely to connect with me on social media after having read the site than before.
+The **social media links** are repeated again here in the same order. This is important, as I expect more people are likely to connect with me on social media after having read the site than before.
 
 ### **Footer**
 As a nod to collaboration and open-source I’ve left this without copyright. The basic nature of the site means this is a safe enough option in this case.
@@ -275,19 +275,30 @@ I used the Unicode for the hamburger icon and Font Awesome chevrons were used fo
 The layout of the home page presented some problems on first run due to the smallest screen including devices ranging from tiny portrait mobiles under 300px to small tablets up to 575px, which meant the content was never perfectly aligned across this range. So, designing the site ‘mobile-first’ still required media queries on the first run to ensure it was viable for this smaller range of screens. To do this, I used some media query padding and removed the image for super-small screens as a ‘quick fix’ but improved this during the responsiveness run, as outlined below in the responsiveness section.
 
 The image on the home page was designed using Canva and is more suited to a CV site than the one in the mock-ups. The coloured border was added in Canva, which is sub-optimal since the flexibility to change this within the code would allow more control for future amendments, but Canva would not allow the export of circular images. The image, then, is square with the illusion of circularity due to matching the background colours exactly. Time constraints meant fixing this was not a priority for initial release.
- 
+
+<div align="center"><img src="/assets/readme-img/first-run-1.png" style="height:500px" alt="screenshot of the homepage"></div>
+
 #### *Pitch*
 The pitch section utilised a simple format of alternating paragraphs with icons. I couldn’t find suitable icons that contained an elevator with both a man and woman in, something I think is important. So, I used Canva to create one, and since I was already creating the icon, I thought it was a good opportunity to tailor it for the site.
  
+<div align="center"><img src="/assets/readme-img/first-run-2.png" style="height:500px" alt="screenshot of the homepage"></div>
+
 #### *History*
 The history section was similar in nature to the pitch section with icons and text alternating. At this point, a decision was made not to include the timeline from original mock-ups. This would have meant two successive sections with a very similar appearance and for such a simple site, that wasn’t desired. Instead, I decided the dates gave indication of the inferred timeline, and instead using Bootstrap’s grid feature would allow this to expand on larger screens. 
 I used ICONSFLOW to source the icons here as the Font Awesome library was limited, and imported the downloaded SVG files.
- 
+
+<div align="center"><img src="/assets/readme-img/first-run-3.png" style="height:500px" alt="screenshot of the homepage"></div>
+
+
 #### *Skills*
 The key skills and tools sections were again just headings with paragraphs in keeping with the design of the site. I added slashes instead of commas to add an element of design that was simple to incorporate. I also took the decision here to lay the two text boxes first before the programming bar chart. Since the following projects page looks similar, the programming bar chart breaks this up somewhat.
- 
+
+<div align="center"><img src="/assets/readme-img/first-run-4.png" style="height:500px" alt="screenshot of the homepage"></div>
+
 The programming skills progress bar chart was taken from [Camila Carrera on CodePen](https://codepen.io/milacarrera/pen/pEPoZz). I adapted the code to suit the theme of my site, but I thought the aesthetics of it were improved over the original mock-ups and so utilised this.
- 
+
+<div align="center"><img src="/assets/readme-img/first-run-5.png" style="height:500px" alt="screenshot of the homepage"></div>
+
 #### *Projects*
 During development of the projects page, a random guttering appeared to the right of the elements in the Gitpod viewer. This was distorting the project element width as Bootstrap was taking it into account as part of its 12-section row, but only for this section. I couldn’t find the cause after disabling pretty much everything I could think it might be. In the end, the code below was [found on stack overflow](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) and turned out to fix the problem completely.
 html, body
@@ -298,13 +309,17 @@ html, body
     padding: 0px;
     overflow-x: hidden; 
 
- 
+<div align="center"><img src="/assets/readme-img/first-run-6.png" style="height:500px" alt="screenshot of the homepage"></div>
+
 #### *Contact*
 The contact section utilised a very basic contact form and submit button. Due to no database set-up this is non-functional, however, functionality will be added in the future.
- 
+
+<div align="center"><img src="/assets/readme-img/first-run-7.png" style="height:500px" alt="screenshot of the homepage"></div>
+
 #### *Footer*
 I added a basic footer with a no copyright message and an icon emoji from ICONSFLOW that I may use as a sort of signature on future developments, colouring the icon to suit the theme of each page. After development, I deleted the ‘help yourself’ text as I felt this was unprofessional and superfluous.
- 
+
+<div align="center"><img src="/assets/readme-img/first-run-8.png" style="height:500px" alt="screenshot of the homepage"></div>
 
 ### **Responsiveness**
 From inception to development, the site has been designed using a mobile-first approach. The main breakpoints I have chosen, to ensure that the content remains well-presented on all available screen sizes, are based on Bootstrap’s breakpoints. This was to ensure I could utilise the simplicity of the in-built breakpoints within Bootstrap’s grid system when designing and therefore minimize the need for additional media queries.
@@ -334,7 +349,15 @@ I also reversed the order of the columns and adjusted their sizes so they would 
 
 Originally, I had planned for the image to disappear on smaller devices, but since it is the only image on the site, and since recruiters like to see what potential employers look like, I decided losing this wasn’t acceptable.
 
-     
+<div align="center"><img src="/assets/readme-img/homepage-responsive-1.png" style="height:500px" alt="screenshot of the homepage"></div>
+
+<div align="center"><img src="/assets/readme-img/homepage-responsive-2.png" style="height:500px" alt="screenshot of the homepage"></div>
+
+<div align="center"><img src="/assets/readme-img/homepage-responsive-3.png" style="height:500px" alt="screenshot of the homepage"></div>
+
+<div align="center"><img src="/assets/readme-img/homepage-responsive-4.png" style="height:500px" alt="screenshot of the homepage"></div>
+
+<div align="center"><img src="/assets/readme-img/homepage-responsive-5.png" style="height:500px" alt="screenshot of the homepage"></div>
 
 #### *Pitch*
 The pitch section is based on the idea of an elevator going down. As such the content needed to remain centred and not spread out. I used Bootstrap’s default column settings (shown below) and some padding to achieve this:
@@ -351,6 +374,8 @@ Since the timeline was not going to be utilised, this made the history section f
 
 This meant the default column with would take full screen (mobile-first), then two columns would appear for medium screens (over 768px) and three columns for large screens (over 992px). With six items in the list, this worked nicely. Finally, I used a container for this section to ensure the content did not reach the edges. 
 
+<div align="center"><img src="/assets/readme-img/history-section.png" style="height:500px" alt="screenshot of the homepage"></div>
+
 #### *Skills*
 The skills section also took advantage of Bootstrap’s grid functionality:
 
@@ -363,7 +388,9 @@ The programming bar chart utilised bootstrap in the simplest way:
     col-8
 
 This ensured that for all screen sizes, this element would only take up 8/12 of the screen.
- 
+
+<div align="center"><img src="/assets/readme-img/skills-section.png" style="height:500px" alt="screenshot of the homepage"></div>
+
 #### *Projects*
 Again, the projects section utilised Bootstrap:
 
@@ -372,7 +399,8 @@ Again, the projects section utilised Bootstrap:
 As above, this allowed for margins to be left between the items while allowing for three different formats: a single column on small screens, two columns on medium screens and three columns on larger screens.
 
 This looks relatively blank right now, but in time this will of course fill up.
- 
+
+<div align="center"><img src="/assets/readme-img/projects-section.png" style="height:500px" alt="screenshot of the homepage"></div>
 
 #### *Contact*
 Finally, the contact form also used Bootstrap to adjust size at the relevant breakpoints:
