@@ -9,6 +9,88 @@ This website is the live CV of myself, [Terry Downie](https://github.com/trdowni
 
 -----------------------------
 
+- [<div align="center">CV Website: Terry Downie</div>](#-div-align--center--cv-website--terry-downie--div-)
+  * [<div align="center">User Experience (UX)</div>](#-div-align--center--user-experience--ux---div-)
+    + [**User Stories**](#--user-stories--)
+    + [**Design**](#--design--)
+      - [*Strategy*](#-strategy-)
+      - [*Scope*](#-scope-)
+      - [*Structure*](#-structure-)
+      - [*Skeleton*](#-skeleton-)
+      - [*Surface*](#-surface-)
+  * [<div align="center">Features</div>](#-div-align--center--features--div-)
+    + [**Core Features**](#--core-features--)
+    + [**Header**](#--header--)
+    + [**Home**](#--home--)
+    + [**Pitch**](#--pitch--)
+    + [**History**](#--history--)
+    + [**Skills**](#--skills--)
+    + [**Projects**](#--projects--)
+    + [**Contact**](#--contact--)
+    + [**Footer**](#--footer--)
+  * [<div align="center">Development, Responsiveness & Accessibility</div>](#-div-align--center--development--responsiveness---accessibility--div-)
+    + [**Initial Development**](#--initial-development--)
+      - [*Navigation*](#-navigation-)
+      - [*Home*](#-home-)
+      - [*Pitch*](#-pitch-)
+      - [*History*](#-history-)
+      - [*Skills*](#-skills-)
+      - [*Projects*](#-projects-)
+      - [*Contact*](#-contact-)
+      - [*Footer*](#-footer-)
+    + [**Responsiveness**](#--responsiveness--)
+      - [*Navigation*](#-navigation--1)
+      - [*Home*](#-home--1)
+      - [*Pitch*](#-pitch--1)
+      - [*History*](#-history--1)
+      - [*Skills*](#-skills--1)
+      - [*Projects*](#-projects--1)
+      - [*Contact*](#-contact--1)
+    + [**Accessibility**](#--accessibility--)
+      - [*Mark-up*](#-mark-up-)
+      - [*Visual Appearance and Content*](#-visual-appearance-and-content-)
+      - [*Dynamic Content*](#-dynamic-content-)
+      - [*Images and Multimedia*](#-images-and-multimedia-)
+      - [*Forms*](#-forms-)
+  * [<div align="center">Technology Used</div>](#-div-align--center--technology-used--div-)
+    + [**Languages**](#--languages--)
+    + [**Frameworks, Libraries & Tools**](#--frameworks--libraries---tools--)
+  * [<div align="center">Testing & Bugs</div>](#-div-align--center--testing---bugs--div-)
+    + [**Testing Code**](#--testing-code--)
+    + [**Testing User Stories**](#--testing-user-stories--)
+    + [**Testing Functionality**](#--testing-functionality--)
+    + [**Testing Accessibility & Responsiveness**](#--testing-accessibility---responsiveness--)
+    + [**Bugs**](#--bugs--)
+  * [<div align="center">Deployment</div>](#-div-align--center--deployment--div-)
+    + [**GitHub Pages**](#--github-pages--)
+    + [**Forking GitHub Repositories**](#--forking-github-repositories--)
+    + [**Making a Local Clone using Git Bash**](#--making-a-local-clone-using-git-bash--)
+  * [<div align="center">Limitations & Improvements</div>](#-div-align--center--limitations---improvements--div-)
+    + [**Current Limitations**](#--current-limitations--)
+      - [*Navigation Bar*](#-navigation-bar-)
+      - [*Landing Page*](#-landing-page-)
+      - [*Contact Form*](#-contact-form-)
+      - [*CV Download*](#-cv-download-)
+    + [**Future Improvements**](#--future-improvements--)
+      - [*Navigation*](#-navigation--2)
+      - [*Landing Page*](#-landing-page--1)
+      - [*GIF Photograph*](#-gif-photograph-)
+      - [*Video Pitch*](#-video-pitch-)
+      - [*Interactive Pitch*](#-interactive-pitch-)
+      - [*Project Screenshots*](#-project-screenshots-)
+      - [*Contact Form*](#-contact-form--1)
+      - [*CV Download*](#-cv-download--1)
+      - [*Scope*](#-scope--1)
+      - [*Interactivity*](#-interactivity-)
+  * [<div align="center">Credits</div>](#-div-align--center--credits--div-)
+    + [**Code**](#--code--)
+    + [**Copy**](#--copy--)
+    + [**Media**](#--media--)
+    + [**Information**](#--information--)
+    + [**Acknowledgements**](#--acknowledgements--)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## <div align="center">User Experience (UX)</div>
 
 The design of the site began with the objectives of target users in mind and worked up from there. The process is detailed here.
@@ -271,28 +353,28 @@ The layout of the home page presented some problems on first run due to the smal
 
 The image on the home page was designed using Canva and is more suited to a CV site than the one in the mock-ups. The coloured border was added in Canva, which is sub-optimal since the flexibility to change this within the code would allow more control for future amendments, but Canva would not allow the export of circular images. The image, then, is square with the illusion of circularity due to matching the background colours exactly. Time constraints meant fixing this was not a priority for initial release.
 
-<div align="center"><img src="/assets/readme-img/first-run-1.png" style="width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-1.png" style="max-width:300px" alt="screenshot of the homepage"></div>
 
 #### *Pitch*
 The pitch section utilised a simple format of alternating paragraphs with icons. I couldn’t find suitable icons that contained an elevator with both a man and woman in, something I think is important. So, I used Canva to create one, and since I was already creating the icon, I thought it was a good opportunity to tailor it for the site.
  
-<div align="center"><img src="/assets/readme-img/first-run-2.png" style="width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-2.png" style="max-width:300px" alt="screenshot of the homepage"></div>
 
 #### *History*
 The history section was similar in nature to the pitch section with icons and text alternating. At this point, a decision was made not to include the timeline from original mock-ups. This would have meant two successive sections with a very similar appearance and for such a simple site, that wasn’t desired. Instead, I decided the dates gave indication of the inferred timeline, and instead using Bootstrap’s grid feature would allow this to expand on larger screens. 
 I used ICONSFLOW to source the icons here as the Font Awesome library was limited, and imported the downloaded SVG files.
 
-<div align="center"><img src="/assets/readme-img/first-run-3.png" style="width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-3.png" style="max-width:300px" alt="screenshot of the homepage"></div>
 
 
 #### *Skills*
 The key skills and tools sections were again just headings with paragraphs in keeping with the design of the site. I added slashes instead of commas to add an element of design that was simple to incorporate. I also took the decision here to lay the two text boxes first before the programming bar chart. Since the following projects page looks similar, the programming bar chart breaks this up somewhat.
 
-<div align="center"><img src="/assets/readme-img/first-run-4.png" style="width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-4.png" style="max-width:300px" alt="screenshot of the homepage"></div>
 
 The programming skills progress bar chart was taken from [Camila Carrera on CodePen](https://codepen.io/milacarrera/pen/pEPoZz). I adapted the code to suit the theme of my site, but I thought the aesthetics of it were improved over the original mock-ups and so utilised this.
 
-<div align="center"><img src="/assets/readme-img/first-run-5.png" style="width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-5.png" style="max-width:300px" alt="screenshot of the homepage"></div>
 
 #### *Projects*
 During development of the projects page, a random guttering appeared to the right of the elements in the Gitpod viewer. This was distorting the project element width as Bootstrap was taking it into account as part of its 12-section row, but only for this section. I couldn’t find the cause after disabling pretty much everything I could think it might be. In the end, the code below was [found on stack overflow](https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend) and turned out to fix the problem completely.
@@ -307,17 +389,17 @@ During development of the projects page, a random guttering appeared to the righ
 
 I also decided at this point that keeping the details about the projects sparse would be acceptable since the work done/being done is so limited at this point.
 
-<div align="center"><img src="/assets/readme-img/first-run-6.png" style="width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-6.png" style="max-width:300px" alt="screenshot of the homepage"></div>
 
 #### *Contact*
 The contact section utilised a very basic contact form and submit button. Due to no database set-up this is non-functional, however, functionality will be added in the future.
 
-<div align="center"><img src="/assets/readme-img/first-run-7.png" style="width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-7.png" style="max-width:300px" alt="screenshot of the homepage"></div>
 
 #### *Footer*
 I added a basic footer with a no copyright message and an icon emoji from ICONSFLOW that I may use as a sort of signature on future developments, colouring the icon to suit the theme of each page. After development, I deleted the ‘help yourself’ text as I felt this was unprofessional and superfluous.
 
-<div align="center"><img src="/assets/readme-img/first-run-8.png" style="width:300px" alt="screenshot of the homepage"></div>
+<div align="center"><img src="/assets/readme-img/first-run-8.png" style="max-width:300px" alt="screenshot of the homepage"></div>
 
 ### **Responsiveness**
 From inception to development, the site has been designed using a mobile-first approach. The main breakpoints I have chosen, to ensure that the content remains well-presented on all available screen sizes, are based on Bootstrap’s breakpoints. This was to ensure I could utilise the simplicity of the in-built breakpoints within Bootstrap’s grid system when designing and therefore minimize the need for additional media queries.
@@ -689,7 +771,7 @@ Information was gleaned from a range of sources, the most pertinent of which wer
 
 I would like to thank:
 - [Code Institute](https://codeinstitute.net/) for the excellent material and [Medale Oluwafemi](https://github.com/omedale) for the invaluable mentoring.
-- [Karina Finnegan](https://github.com/kairosity), in particular [this project](https://github.com/kairosity/ucd-resume), for design and README inspiration.
+- [Karina Finnegan](https://github.com/kairosity), in particular [this project](https://github.com/kairosity/milestone-project-1-cv-website), for design and README inspiration.
 - My family and those around me who put up with 72-hour plus reply times to messages when I’m deep into the syntax, both code and conventional.
 - The countless people before me who’ve iteratively built human civilisation to this point. We live in exciting times and I’m eternally grateful for that fact.
 
