@@ -527,7 +527,7 @@ The site’s **secondary users**, collaborators, will want:
 5.	To be able to contact me in their preferred manner.
 > There is a dedicated page for contacting me, including via essentially eight channels: contact form, telephone, email, and via five social media channels.
 
-Return visitors will want to:
+**Return visitors** will want to:
 1.	Quickly locate and view my updated projects.
 > The order of the projects ensures this is easily achieved.
 
@@ -613,7 +613,7 @@ You can clone a repository and store it locally. To do this:
 
 -----------------------------
 
-## <center>Limitations & Improvements</center>
+## <div align="center">Limitations & Improvements</div>
 
 -----------------------------
 
