@@ -125,6 +125,12 @@ body {
     text-align: left;
 }
 
+/*  For 404 Page Only  */
+.underline, .underline:hover {
+    text-decoration: underline;
+
+}
+
 /* CODE CREDIT: TAKEN FROM HOVER.CSS GROW */
 .hvr-grow {
     display: inline-block;
