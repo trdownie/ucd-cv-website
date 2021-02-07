@@ -480,6 +480,7 @@ The website was tested from various angles: code, user perspectives, functionali
 The code was ran through multiple code validators. This resulted in minor adjustments before repeating the process. The validators and final results are as follows:
 - [W3C Markup Validator](http://validator.w3.org): Pass no errors
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/): Pass no errors
+- [JitBit Unused CSS Validator](https://www.jitbit.com/unusedcss/): Zero unused CSS found
 - [Rakko HTML5 validator](https://en.rakko.tools/tools/58/): Pass no errors
 - [W3C Link checker](https://validator.w3.org/checklink): Pass no relevant errors (Twitter, LinkedIn returned errors due to scripting on the respective sites)
 
