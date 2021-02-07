@@ -11,8 +11,6 @@ This website is the live CV of myself, [Terry Downie](https://github.com/trdowni
 
 ## <center>User Experience (UX)</center>
 
------------------------------
-
 The design of the site began with the objectives of target users in mind and worked up from there. The process is detailed here.
 
 ### **User Stories**
@@ -129,9 +127,7 @@ The **copy** used follows the trend of minimal, purposeful and concise. Strunk�
 
 -----------------------------
 
-## <center>Features</center>
-
------------------------------
+## <div align="center">Features</div>
 
 The project is relatively light on features as dictated by what is necessary to achieve the goals of its target users. These are laid out here.
 
@@ -256,9 +252,8 @@ As a nod to collaboration and open-source I’ve left this without copyright. Th
 
 -----------------------------
 
-## <center>Development, Responsiveness & Accessibility</center>
+## <div align="center">Development, Responsiveness & Accessibility</div>
 
------------------------------
 The development was done in three stages. First, the site was built section-by-section using a mobile-first approach based on the smallest main breakpoint outlined below (under 576px). Second, the necessary steps were taken to ensure compatibility with a range of screen sizes. Third, amendments and additions were made to ensure accessibility for a range of viewing approaches. This section outlines these three steps in turn.
 
 ### **Initial Development**
@@ -446,9 +441,7 @@ The following accessibility considerations are based on the best ‘checklist’
 
 -----------------------------
 
-## <center>Technology Used</center>
-
------------------------------
+## <div align="center">Technology Used</div>
 
 ### **Languages**
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -471,9 +464,8 @@ The following accessibility considerations are based on the best ‘checklist’
 
 -----------------------------
 
-## <center>Testing & Bugs</center>
+## <div align="center">Testing & Bugs</div>
 
------------------------------
 The website was tested from various angles: code, user perspectives, functionality and responsiveness/accessibility.
 
 ### **Testing Code**
@@ -577,9 +569,7 @@ Currently, there are no known bugs with this website. If you spot one – please
 
 -----------------------------
 
-## <center>Deployment</center>
-
------------------------------
+## <div align="center">Deployment</div>
 
 This section outlines deploying projects using GitHub Pages, and how to fork and clone Repositories.
 
@@ -614,8 +604,6 @@ You can clone a repository and store it locally. To do this:
 -----------------------------
 
 ## <div align="center">Limitations & Improvements</div>
-
------------------------------
 
 Limitations due to competence level or time constraints are outlined here, followed by suggested future improvements.
 
@@ -666,8 +654,7 @@ At some future point, and dependant on recruiter and employer feedback, I may ad
 
 -----------------------------
 
-## <center>Credits</center>
-
+## <div align="center">Credits</div>
 -----------------------------
 Here are the people and projects whose shoulders I stood upon.
 
