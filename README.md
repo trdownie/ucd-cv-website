@@ -1,4 +1,4 @@
-# <center>CV Website: Terry Downie**</center>
+# <div align="center">CV Website: Terry Downie</div>
 
 
 View the live site [here](https://trdownie.github.io/ucd-cv-website/).
@@ -9,7 +9,7 @@ This website is the live CV of myself, [Terry Downie](https://github.com/trdowni
 
 -----------------------------
 
-## <center>User Experience (UX)</center>
+## <div align="center">User Experience (UX)</div>
 
 The design of the site began with the objectives of target users in mind and worked up from there. The process is detailed here.
 
